@@ -12,7 +12,7 @@ function RootContainer() {
         <Header />
         <Navigation />
       </div>
-      <div className='m-16'>
+      <div>
         <Home />
       </div>
       <Footer />

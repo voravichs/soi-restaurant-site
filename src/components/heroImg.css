@@ -1,0 +1,12 @@
+.hero-image {
+    background-image: url(../images/testhero.jpg);
+    background-repeat: no-repeat;
+} 
+
+.dark-mask {
+    background-color:black;
+    height: 100%;
+    width: 100%;
+    
+    opacity: 0.5;
+}

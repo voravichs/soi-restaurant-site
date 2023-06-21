@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'PathwayExtreme';
+  src: local('PathwayExtreme'), url(./fonts/PathwayExtreme-VariableFont_opsz,wdth,wght.ttf) format('truetype');
+}
+
+div {
+  font-family: 'PathwayExtreme';
+}
+
 .App {
   text-align: center;
 }
