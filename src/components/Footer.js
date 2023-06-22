@@ -7,6 +7,5 @@ export default function Footer() {
         <p> LOREM IPSUM </p>
         <p> LOREM IPSUM </p>
     </div>
-
   );
 }
