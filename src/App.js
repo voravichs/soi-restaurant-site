@@ -1,6 +1,7 @@
-import RootContainer from './components/RootContainer';
 import './App.css';
 import { Helmet } from 'react-helmet';
+import { AboutUs, FindUs, Footer, Header, SpecialMenu } from './container';
+import { Navbar } from './components';
 
 function App() {
   return (
@@ -8,7 +9,12 @@ function App() {
       <Helmet>
         <script src="https://cdn.tailwindcss.com"></script>
       </Helmet>
-      <RootContainer />
+      <Navbar />
+      <Header />
+      <AboutUs />
+      <SpecialMenu />
+      <FindUs />
+      <Footer />
     </div>
   );
 }
