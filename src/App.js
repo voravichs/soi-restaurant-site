@@ -1,19 +1,33 @@
-import './App.css';
-import { Helmet } from 'react-helmet';
-import { AboutUs, FindUs, Footer, Header, SpecialMenu } from './container';
+import React, { useState } from 'react';
+
+import { Footer } from './container';
+import { Home, AboutUs, Menu, Contact } from './pages'
 import { Navbar } from './components';
+import './App.css';
+import './tailwind.css'
 
 function App() {
+  const [currentPage, setCurrentPage] = useState('Home');
+
+  const renderPage = () => {
+    if (currentPage === 'Home') {
+      return <Home />;
+    }
+    if (currentPage === 'AboutUs') {
+      return <AboutUs />;
+    }
+    if (currentPage === 'Menu') {
+      return <Menu />;
+    }
+    return <Contact />
+  };
+
+  const handlePageChange = (page) => setCurrentPage(page);
+
   return (
     <div>
-      <Helmet>
-        <script src="https://cdn.tailwindcss.com"></script>
-      </Helmet>
-      <Navbar />
-      <Header />
-      <AboutUs />
-      <SpecialMenu />
-      <FindUs />
+      <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
+      {renderPage()}
       <Footer />
     </div>
   );
