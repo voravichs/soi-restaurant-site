@@ -1,33 +1,27 @@
-import React, { useState } from 'react';
-
-import { Footer } from './container';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+// Pages
 import { Home, AboutUs, Menu, Contact } from './pages'
-import { Navbar } from './components';
+
+// Components
+import { Footer, Navbar } from './components';
 import './App.css';
 import './tailwind.css'
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('Home');
-
-  const renderPage = () => {
-    if (currentPage === 'Home') {
-      return <Home />;
-    }
-    if (currentPage === 'AboutUs') {
-      return <AboutUs />;
-    }
-    if (currentPage === 'Menu') {
-      return <Menu />;
-    }
-    return <Contact />
-  };
-
-  const handlePageChange = (page) => setCurrentPage(page);
-
   return (
     <div>
-      <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
-      {renderPage()}
+      <div className='overflow-hidden'>
+        <Router>
+          <Navbar />
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/aboutus' element={<AboutUs />} />
+            <Route path='/menu' element={<Menu />} />
+            <Route path='/contact' element={<Contact />} />
+          </Routes>
+        </Router>
+      </div>
       <Footer />
     </div>
   );

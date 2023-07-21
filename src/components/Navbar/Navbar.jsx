@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdOutlineRestaurantMenu } from 'react-icons/md';
+import { Link } from 'react-router-dom';
 import Tabs from '../Tabs/Tabs';
 
 //import images from '../../constants/images';
 import './Navbar.css';
 
-const Navbar = ({ currentPage, handlePageChange }) => {
+const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
@@ -16,102 +17,67 @@ const Navbar = ({ currentPage, handlePageChange }) => {
         <div label="Soi 3"></div>
       </Tabs>
       <ul className="col-span-2 xl:col-span-5 hidden md:flex flex-1 md:justify-end xl:justify-center items-center list-none app__navbar-links">
-        <li className="p__opensans mx-8 hover:text-gray-400">
-          <a 
-            href="#home"
-            onClick={() => handlePageChange('Home')}
-            className={currentPage === 'Home'
-              ? 'underline font-black drop-shadow-xl'
-              : ''}
-          >
+        <li className="font-sans text-white font-normal tracking-wider capitalize text-lg leading-7 mx-8 hover:text-gray-400">
+          <Link to="/">
             Home
-          </a>
+          </Link>
         </li>
-        <li className="p__opensans mx-8 hover:text-gray-400">
-          <a 
-            href="#aboutus"
-            onClick={() => handlePageChange('AboutUs')}
-            className={currentPage === 'AboutUs'
-              ? 'underline font-black drop-shadow-xl'
-              : ''}
-          >
+        <li className="font-sans text-white font-normal tracking-wider capitalize text-lg leading-7 mx-8 hover:text-gray-400">
+          <Link to="/aboutus">
             About Us
-          </a>
+          </Link>
         </li>
-        <li className="p__opensans mx-8 hover:text-gray-400">
-          <a 
-            href="#menu"
-            onClick={() => handlePageChange('Menu')}
-            className={currentPage === 'Menu'
-              ? 'underline font-black drop-shadow-xl'
-              : ''}
-          >
+        <li className="font-sans text-white font-normal tracking-wider capitalize text-lg leading-7 mx-8 hover:text-gray-400">
+          <Link to="/menu">
             Menu
-          </a>
+          </Link>
         </li>
-        <li className="p__opensans mx-8 hover:text-gray-400">
-          <a 
-            href="#contact"
-            onClick={() => handlePageChange('Contact')}
-            className={currentPage === 'Contact'
-              ? 'underline font-black drop-shadow-xl'
-              : ''}
-          >
+        <li className="font-sans text-white font-normal tracking-wider capitalize text-lg leading-7 mx-8 hover:text-gray-400">
+          <Link to="/contact">
             Contact Us
-          </a>
+          </Link>
         </li>
       </ul>
       <div className="col-span-2 xl:col-span-2 hidden md:flex justify-end items-center">
-        <a href="#login" className="p__opensans mr-8 transition-all decoration-2 decoration-yellow-300 hover:underline">Log In / Register</a>
-        <a href="/" className="p__opensans mr-8 transition-all decoration-2 decoration-yellow-300 hover:underline">Book Table</a>
+        <Link to="/" 
+          className="font-sans text-white font-normal tracking-wider capitalize text-lg leading-7 mr-8 transition-all decoration-2 decoration-yellow-300 hover:underline">
+          Log In / Register
+        </Link>
+        <Link to="/" 
+          className="font-sans text-white font-normal tracking-wider capitalize text-lg leading-7 mr-8 transition-all decoration-2 decoration-yellow-300 hover:underline">
+          Book Table
+        </Link>
       </div>
       <div className="row-span-2 col-span-1 flex justify-end items-center md:hidden">
         <GiHamburgerMenu color="#fff" fontSize={40} onClick={() => setToggleMenu(true)} />
 
         {toggleMenu && (
-          <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
-            <MdOutlineRestaurantMenu fontSize={40} className="overlay__close" onClick={() => setToggleMenu(false)} />
-            <ul className="app__navbar-smallscreen_links">
-              <li className="p__opensans">
-                <a 
-                  href="#home"
-                  onClick={() => {
-                    handlePageChange('Home');
-                    setToggleMenu(false)}}
-                >
-                  Home
-                </a>
-              </li>
-              <li className="p__opensans">
-              <a 
-                href="#aboutus"
-                onClick={() => {
-                  handlePageChange('AboutUs')
-                  setToggleMenu(false)}}
-              >
+          <div className="z-30 fixed top-0 left-0 w-full h-screen bg-slate-950 transition ease-in-out flex flex-col justify-center items-center slide-bottom">
+            <MdOutlineRestaurantMenu fontSize={40} 
+              className="absolute top-5 right-5 text-5xl fill-white hover:fill-yellow-500 cursor-pointer" 
+              onClick={() => setToggleMenu(false)} />
+            <div className="list-none h-1/2 flex flex-col justify-between">
+              <Link to="/"
+                className="font-serif font-normal tracking-wider capitalize leading-7 cursor-pointer text-yellow-300 text-4xl text-center"
+                onClick={() => setToggleMenu(false)}>
+                Home
+              </Link>
+              <Link to="/aboutus"
+                className="font-serif font-normal tracking-wider capitalize leading-7 cursor-pointer text-yellow-300 text-4xl text-center"
+                onClick={() => setToggleMenu(false)}>
                 About Us
-              </a>
-              </li>
-              <li className="p__opensans">
-              <a 
-                href="#menu"
-                onClick={() => {
-                  handlePageChange('Menu')
-                  setToggleMenu(false)}}
-              >
+              </Link>
+              <Link to="/menu" 
+                className="font-serif font-normal tracking-wider capitalize leading-7 cursor-pointer text-yellow-300 text-4xl text-center"
+                onClick={() => setToggleMenu(false)}>
                 Menu
-              </a>
-              </li>
-              <li className="p__opensans">
-              <a 
-                href="#contact"
-                onClick={() => {handlePageChange('Contact')
-                setToggleMenu(false)}}
-              >
+              </Link>
+              <Link to="/contact"
+                className="font-serif font-normal tracking-wider capitalize leading-7 cursor-pointer text-yellow-300 text-4xl text-center"
+                onClick={() => setToggleMenu(false)}>
                 Contact Us
-              </a>
-              </li>
-            </ul>
+              </Link>
+            </div>
           </div>
         )}
 
