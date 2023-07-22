@@ -1,5 +1,8 @@
 import React from 'react';
-import { Header, AboutUs, FindUs, SpecialMenu } from '../container';
+import Header from './Header'
+import AboutUs from './HomeAboutUs';
+import FindUs from './FindUs';
+import SpecialMenu from './SpecialMenu';
 
 export default function Home() {
   return (

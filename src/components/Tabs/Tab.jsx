@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-import './Tab.css';
-
 class Tab extends Component {
   static propTypes = {
     activeTab: PropTypes.string.isRequired,
@@ -24,10 +22,10 @@ class Tab extends Component {
       },
     } = this;
 
-    let className = 'p__opensans text-center text-lg sm:text-xl xl:text-2xl list-none px-4 sm:px-8 py-4 mr-50';
+    let className = 'font-sans text-white font-normal tracking-wider capitalize text-lg leading-7 text-center sm:text-xl xl:text-2xl list-none px-4 sm:px-8 py-4 mr-50';
 
     if (activeTab === label) {
-      className += '  app__tab-bg-color border-solid border-t border-x border-b-0 border-2 border-green-50 rounded-t-2xl';
+      className += ' bg-soi-green border-solid border-t border-x border-b-0 border-2 border-green-50 rounded-t-2xl';
     }
 
     return (

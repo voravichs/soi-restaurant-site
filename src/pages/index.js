@@ -1,7 +1,7 @@
-import Home from './Home';
+import Home from './Home/Home';
 import AboutUs from './AboutUs';
 import Menu from './Menu';
-import Contact from './Contact';
+import Contact from './Contact/Contact';
 
 export {
   Home,

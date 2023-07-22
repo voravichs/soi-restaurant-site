@@ -1,8 +1,0 @@
-.app__specialMenu {
-    background: var(--color-green);
-}
-
-.app__specialMenu-menu_heading {
-    font-family: var(--font-base);
-    color: var(--color-golden);
-}

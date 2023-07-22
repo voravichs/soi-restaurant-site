@@ -2,10 +2,7 @@ import React, { useState } from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdOutlineRestaurantMenu } from 'react-icons/md';
 import { Link } from 'react-router-dom';
-import Tabs from '../Tabs/Tabs';
-
-//import images from '../../constants/images';
-import './Navbar.css';
+import Tabs from './Tabs/Tabs';
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -39,11 +36,11 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="col-span-2 xl:col-span-2 hidden md:flex justify-end items-center">
-        <Link to="/" 
+        <Link to="/"
           className="font-sans text-white font-normal tracking-wider capitalize text-lg leading-7 mr-8 transition-all decoration-2 decoration-yellow-300 hover:underline">
           Log In / Register
         </Link>
-        <Link to="/" 
+        <Link to="/"
           className="font-sans text-white font-normal tracking-wider capitalize text-lg leading-7 mr-8 transition-all decoration-2 decoration-yellow-300 hover:underline">
           Book Table
         </Link>
@@ -53,27 +50,27 @@ const Navbar = () => {
 
         {toggleMenu && (
           <div className="z-30 fixed top-0 left-0 w-full h-screen bg-slate-950 transition ease-in-out flex flex-col justify-center items-center slide-bottom">
-            <MdOutlineRestaurantMenu fontSize={40} 
-              className="absolute top-5 right-5 text-5xl fill-white hover:fill-yellow-500 cursor-pointer" 
+            <MdOutlineRestaurantMenu fontSize={40}
+              className="absolute top-5 right-5 text-5xl fill-white hover:fill-yellow-500 cursor-pointer"
               onClick={() => setToggleMenu(false)} />
             <div className="list-none h-1/2 flex flex-col justify-between">
               <Link to="/"
-                className="font-serif font-normal tracking-wider capitalize leading-7 cursor-pointer text-yellow-300 text-4xl text-center"
+                className="font-serif font-normal tracking-wider capitalize leading-7 cursor-pointer text-yellow-300 hover:text-slate-50 text-4xl text-center"
                 onClick={() => setToggleMenu(false)}>
                 Home
               </Link>
               <Link to="/aboutus"
-                className="font-serif font-normal tracking-wider capitalize leading-7 cursor-pointer text-yellow-300 text-4xl text-center"
+                className="font-serif font-normal tracking-wider capitalize leading-7 cursor-pointer text-yellow-300 hover:text-slate-50 text-4xl text-center"
                 onClick={() => setToggleMenu(false)}>
                 About Us
               </Link>
-              <Link to="/menu" 
-                className="font-serif font-normal tracking-wider capitalize leading-7 cursor-pointer text-yellow-300 text-4xl text-center"
+              <Link to="/menu"
+                className="font-serif font-normal tracking-wider capitalize leading-7 cursor-pointer text-yellow-300 hover:text-slate-50 text-4xl text-center"
                 onClick={() => setToggleMenu(false)}>
                 Menu
               </Link>
               <Link to="/contact"
-                className="font-serif font-normal tracking-wider capitalize leading-7 cursor-pointer text-yellow-300 text-4xl text-center"
+                className="font-serif font-normal tracking-wider capitalize leading-7 cursor-pointer text-yellow-300 hover:text-slate-50 text-4xl text-center"
                 onClick={() => setToggleMenu(false)}>
                 Contact Us
               </Link>

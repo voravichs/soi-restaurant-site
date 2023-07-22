@@ -1,9 +1,0 @@
-.app__aboutus-content_knife img {
-    height: 910px;
-}
-
-@media screen and (min-width: 1536px) {
-    .app__aboutus-content_knife img {
-        height: 1110px;
-    }
-}
