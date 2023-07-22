@@ -4,8 +4,8 @@ import { images } from '../constants';
 
 const SubHeading = ({ title }) => (
   <div className='mb-4'>
-    <p className="p__cormorant text-2xl">{title}</p>
-    <img src={images.spoon} alt="spoon" className="spoon__img" />
+    <p className="font-serif text-white text-bold tracking-wide text-3xl leading-relaxed">{title}</p>
+    <img src={images.spoon} alt="spoon" className="w-16" />
   </div>
 );
 

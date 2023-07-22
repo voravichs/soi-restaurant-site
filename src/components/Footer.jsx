@@ -22,11 +22,11 @@ const Footer = () => (
         <div className='flex justify-center'>
           <img className='w-60 mb-8' src={images.gericht} alt="footer_logo" />
         </div>
-        <p className="font-serif text-white font-normal tracking-wider capitalize text-lg leading-7">
+        <p className="font-serif text-white font-normal tracking-wider capitalize text-xl leading-7">
           &quot;The best way to find yourself is to lose yourself in the service of others.&quot;
         </p>
         <div className='flex justify-center'>
-          <img src={images.spoon} className="spoon__img mt-8" alt='spoon'/>
+          <img src={images.spoon} className="w-20 mt-8" alt='spoon'/>
         </div>
         <div className="flex justify-center mt-2">
           <FiFacebook className='fill-white m-2 text-4xl cursor-pointer hover:fill-yellow-500'/>

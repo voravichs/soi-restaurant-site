@@ -4,14 +4,14 @@ import { SubHeading, MenuItem } from '../../components';
 import { data, images } from '../../constants';
 
 const SpecialMenu = () => (
-  <div className="bg-soi-green flex__center flex-col px-16 py-8 sm:py-16 md:py-24" id="menu">
+  <div className="bg-soi-green flex-center flex-col px-16 py-8 sm:py-16 md:py-24" id="menu">
     <div className="mb-8 text-center">
       <SubHeading title="Menu that fits your palatte" />
-      <h1 className="headtext__cormorant">Popular Dishes</h1>
+      <h1 className="font-serif text-yellow-200 text-6xl leading-relaxed tracking-wider">Popular Dishes</h1>
     </div>
     
     <div className="my-4 flex flex-col lg:flex-row justify-center items-start">
-      <div className="w-full lg:w-1/3 flex-1 flex-col w-full flex__center">
+      <div className="w-full lg:w-1/3 flex-1 flex-col w-full flex-center">
         <p className="font-serif text-yellow-200 text-5xl text-semibold tracking-wider">
           Appetizers
         </p>
@@ -23,11 +23,11 @@ const SpecialMenu = () => (
       </div>
 
       <div className="lg:w-1/3 m-8 mb-16 lg:my-0">
-        <img className='w-1/2 lg:w-full h-auto mx-auto' id="special-menu-img" src={images.menu} alt="menu__img" />
+        <img className='w-1/2 lg:w-full h-auto mx-auto' id="special-menu-img" src={images.menu} alt="menu_img" />
       </div>
 
-      <div className="lg:w-1/3 flex-1 flex-col w-full flex__center">
-        <p className="app__specialMenu-menu_heading text-5xl text-semibold tracking-wider">
+      <div className="lg:w-1/3 flex-1 flex-col w-full flex-center">
+        <p className="font-serif text-yellow-200 text-5xl text-semibold tracking-wider">
           Noodles
         </p>
         <div className="flex flex-col my-8 w-full items-center">
@@ -39,7 +39,7 @@ const SpecialMenu = () => (
     </div>
 
     <div>
-      <button type="button" className="custom__button text-2xl text-yellow-50">View Full Menu</button>
+      <button type="button" className="font-serif font-bold tracking-wider px-2 py-6 text-2xl text-yellow-200">View Full Menu</button>
     </div>
   </div>
 );

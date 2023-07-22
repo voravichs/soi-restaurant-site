@@ -5,7 +5,6 @@ import { Home, AboutUs, Menu, Contact } from './pages'
 
 // Components
 import { Footer, Navbar } from './components';
-import './App.css';
 import './tailwind.css'
 
 function App() {

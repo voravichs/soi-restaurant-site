@@ -13,7 +13,7 @@ const Navbar = () => {
         <div label="Soi 2"></div>
         <div label="Soi 3"></div>
       </Tabs>
-      <ul className="col-span-2 xl:col-span-5 hidden md:flex flex-1 md:justify-end xl:justify-center items-center list-none app__navbar-links">
+      <ul className="col-span-2 xl:col-span-5 hidden md:flex flex-1 md:justify-end xl:justify-center items-center list-none">
         <li className="font-sans text-white font-normal tracking-wider capitalize text-lg leading-7 mx-8 hover:text-gray-400">
           <Link to="/">
             Home

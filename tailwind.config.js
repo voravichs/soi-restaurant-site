@@ -4,6 +4,8 @@ module.exports = {
   theme: {
     fontFamily: {
       primary: 'Poppins',
+      'sans': ['ui-sans-serif', 'system-ui'],
+      'serif': ['Cormorant Upright','ui-serif', 'Georgia'],
     },
     container: {
       padding: {
