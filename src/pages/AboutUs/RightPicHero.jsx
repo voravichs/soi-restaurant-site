@@ -1,8 +1,11 @@
 import React from 'react';
-import TestImg from '../images/testhero.jpg';
+import TestImg from '../../images/testhero.jpg';
 
-const LeftPicHero  = (props) => (
+const RightPicHero  = (props) => (
   <div className='my-16 mx-12 sm:mx-28 flex flex-col lg:flex-row'> 
+    <p className='pb-12 sm:px-12 lg:w-1/2 lg:pr-12 lg:pl-0 font-serif text-xl xl:text-2xl text-green-50'>
+        {props.text}
+    </p>
     <div className='lg:w-1/2 flex-center'>
       <img
         src={TestImg}
@@ -10,10 +13,7 @@ const LeftPicHero  = (props) => (
         className='w-full max-w-lg lg:max-w-2xl'
       />
     </div>
-    <p className='pt-12 sm:px-12 lg:w-1/2 lg:pl-12 lg:pr-0 font-serif text-xl xl:text-2xl text-green-50'>
-      {props.text}
-    </p>
   </div>
 );
 
-export default LeftPicHero;
+export default RightPicHero;

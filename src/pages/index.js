@@ -1,6 +1,6 @@
 import Home from './Home/Home';
-import AboutUs from './AboutUs';
-import Menu from './Menu';
+import AboutUs from './AboutUs/AboutUs';
+import Menu from './Menu/Menu';
 import Contact from './Contact/Contact';
 
 export {

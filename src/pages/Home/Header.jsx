@@ -2,6 +2,7 @@ import React from 'react';
 
 import { SubHeading } from '../../components';
 import { images } from '../../constants';
+import { Link } from 'react-router-dom';
 
 
 const Header = () => (
@@ -14,7 +15,12 @@ const Header = () => (
       <p className="font-sans text-white font-normal tracking-wider my-8 text-lg lg:text-xl">
         Experience the warmth of Thailand in every dish at our restaurant, where we serve authentic Thai cuisine crafted with passion and the finest local ingredients
       </p>
-      <button type="button" className="font-serif font-bold tracking-wider px-2 py-6 text-2xl text-yellow-200">Explore Menu</button>
+      <Link to="/menu">
+        <button type="button" className="font-serif font-bold tracking-wider px-2 py-6 text-2xl text-yellow-200">
+          Explore Menu
+        </button>
+      </Link>
+      
     </div>
 
     <div className="flex-center flex-1 w-full mt-8 lg:mt-0 lg:ml-12">

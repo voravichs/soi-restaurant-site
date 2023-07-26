@@ -1,3 +1,6 @@
+import thai from '../assets/thai.png';
+import thai2 from '../assets/thai2.png';
+import thai3 from '../images/testhero.jpg'
 import bg from '../assets/bg.png';
 import chef from '../assets/chef.png';
 import G from '../assets/G.png';
@@ -24,7 +27,10 @@ import soi from '../assets/soi.png';
 import soi2 from '../assets/soi2.png';
 import spicy from '../assets/spicy.png';
 
-export default {
+const images = {
+  thai,
+  thai2,
+  thai3,
   bg,
   chef,
   G,
@@ -50,4 +56,6 @@ export default {
   soi,
   soi2,
   spicy,
-};
+}
+
+export default images;

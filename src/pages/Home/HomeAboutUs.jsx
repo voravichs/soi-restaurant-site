@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { images } from '../../constants';
+import { Link } from 'react-router-dom';
 
 const AboutUs = () => (
   <div className="relative bg-[url('./assets/bg.png')] bg-center bg-cover bg-repeat bg-fixed flex-center px-16 py-8 sm:py-16 md:py-24" id="about">
@@ -17,9 +18,12 @@ const AboutUs = () => (
         <p className="font-sans text-white font-normal tracking-wider capitalize text-lg leading-7 m-4">
           Experience the essence of Thailand at Soi 2. We serve authentic Thai cuisine, marrying traditional recipes with fresh ingredients. Join us at Soi 2 for a unique culinary adventure.
         </p>
-        <button type="button" className="font-serif font-bold tracking-wider px-2 py-6 text-2xl text-yellow-200">
-          Learn More
-        </button>
+        <Link to="/aboutus">
+          <button type="button" className="font-serif font-bold tracking-wider px-2 py-6 text-2xl text-yellow-200">
+            Learn More
+          </button>
+        </Link>
+
       </div>
 
       <div className="lg:m-8 xl:m-16 flex-center">
@@ -34,9 +38,11 @@ const AboutUs = () => (
         <p className="font-sans text-white font-normal tracking-wider capitalize text-lg leading-7 m-4">
           Established in 2023, Soi 2 channels the soul of Bangkok's street food into each authentic dish. Our devotion to quality and a memorable dining experience are paramount.
         </p>
-        <button type="button" className="font-serif font-bold tracking-wider px-2 py-6 text-2xl text-yellow-200">
-          Learn More
-        </button>
+        <Link to="/aboutus">
+          <button type="button" className="font-serif font-bold tracking-wider px-2 py-6 text-2xl text-yellow-200">
+            Learn More
+          </button>
+        </Link>
       </div>
 
     </div>

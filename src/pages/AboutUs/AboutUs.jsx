@@ -1,10 +1,11 @@
 import React from 'react';
 
-import {LeftPicHero, RightPicHero} from '../components';
+import LeftPicHero from './LeftPicHero';
+import RightPicHero from './RightPicHero';
 
-export default function AboutUs() {
+const AboutUs = () => {
   return (
-    <div className='min-h-screen'>
+    <div>
       <LeftPicHero 
         text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -24,3 +25,5 @@ export default function AboutUs() {
     </div>
   );
 }
+
+export default AboutUs;
