@@ -1,15 +1,16 @@
 import React from 'react';
-import Header from './Header'
 import AboutUs from './HomeAboutUs';
 import FindUs from './FindUs';
-//import SpecialMenu from './SpecialMenu';
+import Jumbotron from './Jumbotron';
+import Carousel from './Carousel';
 
-export default function Home() {
-  return (
-    <div>
-      <Header />
-      <AboutUs />
-      <FindUs />
-    </div>
-  );
-}
+const Home = () => (
+  <div>
+    <Jumbotron />
+    <Carousel />
+    <AboutUs />
+    <FindUs />
+  </div>
+)
+
+export default Home;

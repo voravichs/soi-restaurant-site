@@ -9,7 +9,7 @@ const AboutUs = () => (
       <img className="h-64 w-64 z-0" src={images.G} alt="g letter" />
     </div>
 
-    <div className="w-full z-20 flex-center flex-col lg:flex-row">
+    <div className="w-full flex-center flex-col lg:flex-row">
       <div className="flex flex-1 flex-col justify-end items-end text-right">
         <h1 className="font-serif text-yellow-200 text-6xl leading-relaxed tracking-wider">
           About Us

@@ -20,7 +20,7 @@ module.exports = {
         'soi-green': '#17B169',
       },
       backgroundImage: {
-        hero: "url('./img/bg_hero.svg')",
+        jumbotron: "url('./assets/testhero.jpg')",
       },
       translate: {
         

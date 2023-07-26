@@ -1,5 +1,5 @@
 import React from 'react';
-import TestImg from '../../images/testhero.jpg';
+import TestImg from '../../assets/testhero.jpg';
 
 const LeftPicHero  = (props) => (
   <div className='my-16 mx-12 sm:mx-28 flex flex-col lg:flex-row'> 

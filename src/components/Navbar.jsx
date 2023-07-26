@@ -9,10 +9,10 @@ const Navbar = () => {
 
   return (
     <nav className="w-screen h-24 md:h-32 grid grid-cols-3 grid-rows-2 xl:grid-cols-10 xl:grid-rows-1 bg-green-600 px-10 pt-4">
-      <Tabs>
+      {/* <Tabs>
         <div label="Soi 2"></div>
         <div label="Soi 3"></div>
-      </Tabs>
+      </Tabs> */}
       <ul className="col-span-2 xl:col-span-5 hidden md:flex flex-1 md:justify-end xl:justify-center items-center list-none">
         <li className="font-sans text-white font-normal tracking-wider capitalize text-lg leading-7 mx-8 hover:text-gray-400">
           <Link to="/">

@@ -4,7 +4,7 @@ import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi';
 import { images } from '../constants';
 
 const Footer = () => (
-  <div className="w-full z-10 relative flex justify-start items-center flex-col bg-slate-950 pt-0 px-16 pb-24" id="login">
+  <div className="w-full relative flex justify-start items-center flex-col bg-slate-950 pt-0 px-16 pb-24" id="login">
     <div className="w-full flex flex-col lg:flex-row items-center lg:items-start justify-between mt-20 px-8">
       <div className="flex-1 m-4 text-center ">
         <h1 className="font-serif text-white font-normal tracking-wider capitalize text-3xl leading-10 mb-4 xl:text-5xl">

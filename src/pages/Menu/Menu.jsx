@@ -1,18 +1,14 @@
-import React, {useContext} from 'react';
+import React from 'react';
 import MenuSection from './MenuSection';
 
-// import product context
-import { MenuContext } from '../../contexts/MenuContext';
+// import data
+import menuData from '../../constants/data'
 
 const Menu = () => {
-
-  // get products from product context
-  const { menu } = useContext(MenuContext);
-
-  // Split menu into sections
+  // Split menu data into sections
   const
   { appetizer, soup, salad, unique, mom, veg, dessert, noodlesoup, curry, noodle, wok, friedrice, drinks, sides }
-      = menu;
+      = menuData;
 
   return (
     <div className='p-16'>

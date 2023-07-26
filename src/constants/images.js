@@ -1,6 +1,6 @@
 import thai from '../assets/thai.png';
 import thai2 from '../assets/thai2.png';
-import thai3 from '../images/testhero.jpg'
+import thai3 from '../assets/testhero.jpg'
 import bg from '../assets/bg.png';
 import chef from '../assets/chef.png';
 import G from '../assets/G.png';

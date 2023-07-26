@@ -113,7 +113,7 @@ const appetizer = [
   {
     id: 'a13',
     title: 'Sampler',
-    price: 7,
+    price: 15,
     category: 'Appetizers',
     spicy: 0,
     description: 'Combination of (2) Egg Rolls, (2) Sweater Shrimp, (2) Crab Rangoon, and (3) Pork Dumplings served with ginger soy dip and sweet & sour sauce.',
@@ -790,6 +790,99 @@ const sides = [
   },
 ]
 
+const featured = [
+  {
+    id: 'a13',
+    title: 'Sampler',
+    price: 15,
+    category: 'Appetizers',
+    spicy: 0,
+    description: 'Combination of (2) Egg Rolls, (2) Sweater Shrimp, (2) Crab Rangoon, and (3) Pork Dumplings served with ginger soy dip and sweet & sour sauce.',
+    image: images.thai2,
+  },
+  {
+    id: 'so2',
+    title: 'Tom Yum Soup',
+    price: '7 (Pot 18)',
+    category: 'Soup',
+    spicy: 1,
+    description: 'Lorem Ipsum',
+    image: images.thai,
+  },
+  {
+    id: 'sal2',
+    title: 'Papaya Salad',
+    price: 12,
+    category: 'Salad',
+    spicy: 2,
+    description: 'Lorem Ipsum',
+    image: images.thai,
+  },
+  {
+    id: 'u2',
+    title: 'Mango Chicken',
+    price: 15,
+    category: 'Unique',
+    spicy: 1,
+    description: 'Lorem Ipsum',
+    image: images.thai,
+  },
+  {
+    id: 'mom1',
+    title: 'Larb Mae Janla',
+    price: 15,
+    category: 'Mom',
+    spicy: 3,
+    description: 'Lorem Ipsum',
+    image: images.thai,
+  },
+  {
+    id: 'ns1',
+    title: 'Duck Noodles',
+    price: 18,
+    category: 'Noodle Soup',
+    spicy: 0,
+    description: 'Lorem Ipsum',
+    image: images.thai,
+  },
+  {
+    id: 'c1',
+    title: 'Red Curry',
+    price: 0,
+    category: 'Curry',
+    spicy: 2,
+    description: 'Lorem Ipsum',
+    image: images.thai,
+  },
+  {
+    id: 'n2',
+    title: 'Fiery Pad Thai',
+    price: 15,
+    category: 'Noodle',
+    spicy: 1,
+    description: 'Lorem Ipsum',
+    image: images.thai,
+  },
+  {
+    id: 'w1',
+    title: 'Gra Pow',
+    price: 15,
+    category: 'Wok',
+    spicy: 2,
+    description: 'Lorem Ipsum',
+    image: images.thai,
+  },
+  {
+    id: 'f3',
+    title: 'Pineapple Fried Rice',
+    price: 0,
+    category: 'Fried Rice',
+    spicy: 0,
+    description: 'Lorem Ipsum',
+    image: images.thai,
+  },
+]
+
 const menu = {
   appetizer,
   soup,
@@ -805,6 +898,7 @@ const menu = {
   friedrice,
   drinks,
   sides,
+  featured,
 }
 
 export default menu;
