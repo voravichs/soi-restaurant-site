@@ -158,7 +158,7 @@ const salad = [
     price: 13,
     category: 'Salad',
     spicy: 2,
-    description: 'Lorem Ipsum',
+    description: 'Lettuce wraps, minced chicken mixed with red onion, lemongrass, cilantro, roasted rice in a spicy lime dressing.',
     image: images.thai,
   },
   {
@@ -167,7 +167,7 @@ const salad = [
     price: 12,
     category: 'Salad',
     spicy: 2,
-    description: 'Lorem Ipsum',
+    description: 'Thai style, sweet & sour with peanut or Laos style, spicy & sour with salted crab.',
     image: images.thai,
   },
   {
@@ -176,7 +176,7 @@ const salad = [
     price: 15,
     category: 'Salad',
     spicy: 2,
-    description: 'Lorem Ipsum',
+    description: 'Grilled sliced beef mixed with lime juice, chili powder, roasted rice, red onion, kaffir lime leaf. Very delicious!',
     image: images.thai,
   },
   {
@@ -185,7 +185,7 @@ const salad = [
     price: 15,
     category: 'Salad',
     spicy: 2,
-    description: 'Lorem Ipsum',
+    description: 'Clear noodles, ground chicken, shrimp, onion, scallion, cilantro with spicy house lime dressing.',
     image: images.thai,
   },
 ]
