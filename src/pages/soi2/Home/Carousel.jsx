@@ -1,10 +1,10 @@
 import React from 'react';
 
 // import data
-import menuData from '../../constants/data'
+import menuData from '../../../constants/data'
 
 // Import components
-import MenuItemCard from '../../components/MenuItemCard'
+import MenuItemCard from '../../../components/MenuItemCard'
 
 const Carousel = () => {
     // Get featured items from menu data

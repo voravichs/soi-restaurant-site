@@ -806,7 +806,7 @@ const featured = [
     price: '7 (Pot 18)',
     category: 'Soup',
     spicy: 1,
-    description: 'Lorem Ipsum',
+    description: 'Spicy & sour soup, mushrooms, tomatoes, scallion, cilantro and choice of meat.',
     image: images.thai,
   },
   {
@@ -815,7 +815,7 @@ const featured = [
     price: 12,
     category: 'Salad',
     spicy: 2,
-    description: 'Lorem Ipsum',
+    description: 'Thai style, sweet & sour with peanut or Laos style, spicy & sour with salted crab.',
     image: images.thai,
   },
   {
@@ -824,7 +824,7 @@ const featured = [
     price: 15,
     category: 'Unique',
     spicy: 1,
-    description: 'Lorem Ipsum',
+    description: 'Sliced chicken stir-fried in our chefs special sweet and sour sauce with slieced mango, peppers, and onion.',
     image: images.thai,
   },
   {
@@ -833,7 +833,7 @@ const featured = [
     price: 15,
     category: 'Mom',
     spicy: 3,
-    description: 'Lorem Ipsum',
+    description: 'This is my original home town food, mince chicken with a spicy herb paste, served with lettuce and cucumber.',
     image: images.thai,
   },
   {
@@ -842,7 +842,7 @@ const featured = [
     price: 18,
     category: 'Noodle Soup',
     spicy: 0,
-    description: 'Lorem Ipsum',
+    description: 'Bean sprout, crispy garlic, scallion, cilantro in a slow cook duck broth.',
     image: images.thai,
   },
   {
@@ -851,7 +851,7 @@ const featured = [
     price: 0,
     category: 'Curry',
     spicy: 2,
-    description: 'Lorem Ipsum',
+    description: 'Bell pepper, egg plant, basil.',
     image: images.thai,
   },
   {
@@ -860,7 +860,7 @@ const featured = [
     price: 15,
     category: 'Noodle',
     spicy: 1,
-    description: 'Lorem Ipsum',
+    description: 'Spicy version of traditional Pad Thai, with chicken and shrimp, egg, onion, carrots, peppers, and basil.',
     image: images.thai,
   },
   {
@@ -869,7 +869,7 @@ const featured = [
     price: 15,
     category: 'Wok',
     spicy: 2,
-    description: 'Lorem Ipsum',
+    description: 'Minced chicken, basil, bell pepper, onion stir fried in a spicy Thai basil sauce. Served with fried egg on the top.',
     image: images.thai,
   },
   {
@@ -878,7 +878,7 @@ const featured = [
     price: 0,
     category: 'Fried Rice',
     spicy: 0,
-    description: 'Lorem Ipsum',
+    description: 'Curry fried rice, egg, pineapple, raisin, cashew, scallions, your choice of meat.',
     image: images.thai,
   },
 ]

@@ -2,7 +2,7 @@ import React from 'react';
 
 
 // import components
-import MenuItemCard from '../../components/MenuItemCard';
+import MenuItemCard from '../../../components/MenuItemCard';
 
 const MenuSection = ({section}) => {
     return (

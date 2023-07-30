@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { SubHeading } from '../../components';
-import { images } from '../../constants';
+import { SubHeading } from '../../../components';
+import { images } from '../../../constants';
 
 const FindUs = () => (
   <div className="bg-[url('./assets/bg.png')] bg-center bg-cover bg-repeat bg-fixed flex flex-col lg:flex-row justify-between items-center min-h-screen px-16 py-8 sm:py-16 md:py-24" id="contact">

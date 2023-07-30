@@ -1,11 +1,17 @@
-import Home from './Home/Home';
+import Soi2Home from './soi2/Home/Home';
+import Soi2Menu from './soi2/Menu/Menu';
+import Soi3Home from './soi3/Home/Home';
+import Soi3Menu from './soi3/Menu/Menu';
 import AboutUs from './AboutUs/AboutUs';
-import Menu from './Menu/Menu';
 import Contact from './Contact/Contact';
+import Landing from './Landing';
 
 export {
-  Home,
+  Soi2Home,
+  Soi2Menu,
+  Soi3Home,
+  Soi3Menu,
   AboutUs,
-  Menu,
   Contact,
+  Landing
 };

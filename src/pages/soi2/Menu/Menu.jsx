@@ -2,7 +2,7 @@ import React from 'react';
 import MenuSection from './MenuSection';
 
 // import data
-import menuData from '../../constants/data'
+import menuData from '../../../constants/data'
 
 const Menu = () => {
   // Split menu data into sections

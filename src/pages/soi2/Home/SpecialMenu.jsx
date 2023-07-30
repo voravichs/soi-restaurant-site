@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { SubHeading, MenuItem } from '../../components';
-import { data, images } from '../../constants';
+import { SubHeading, MenuItem } from '../../../components';
+import { data, images } from '../../../constants';
 
 const SpecialMenu = () => (
   <div className="bg-soi-green flex-center flex-col px-16 py-8 sm:py-16 md:py-24" id="menu">
