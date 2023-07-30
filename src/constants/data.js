@@ -128,7 +128,7 @@ const soup = [
     price: '7 (Pot 18)',
     category: 'Soup',
     spicy: 0,
-    description: 'Lorem Ipsum',
+    description: 'Coconut milk soup with galangal root, mushroom, tomatoes, scallion, cilantro, choice of meat.',
     image: images.thai,
   },
   {
@@ -137,7 +137,7 @@ const soup = [
     price: '7 (Pot 18)',
     category: 'Soup',
     spicy: 1,
-    description: 'Lorem Ipsum',
+    description: 'Spicy & sour soup, mushrooms, tomatoes, scallion, cilantro and choice of meat.',
     image: images.thai,
   },
   {
@@ -146,7 +146,7 @@ const soup = [
     price: 7,
     category: 'Soup',
     spicy: 0,
-    description: 'Lorem Ipsum',
+    description: 'A healthy traditional Japanese soup with tofu, seaweed and scallion.',
     image: images.thai,
   },
 ];
@@ -158,7 +158,7 @@ const salad = [
     price: 13,
     category: 'Salad',
     spicy: 2,
-    description: 'Lorem Ipsum',
+    description: 'Lettuce wraps, minced chicken mixed with red onion, lemongrass, cilantro, roasted rice in a spicy lime dressing.',
     image: images.thai,
   },
   {
@@ -167,7 +167,7 @@ const salad = [
     price: 12,
     category: 'Salad',
     spicy: 2,
-    description: 'Lorem Ipsum',
+    description: 'Thai style, sweet & sour with peanut or Laos style, spicy & sour with salted crab.',
     image: images.thai,
   },
   {
@@ -176,7 +176,7 @@ const salad = [
     price: 15,
     category: 'Salad',
     spicy: 2,
-    description: 'Lorem Ipsum',
+    description: 'Grilled sliced beef mixed with lime juice, chili powder, roasted rice, red onion, kaffir lime leaf. Very delicious!',
     image: images.thai,
   },
   {
@@ -185,7 +185,7 @@ const salad = [
     price: 15,
     category: 'Salad',
     spicy: 2,
-    description: 'Lorem Ipsum',
+    description: 'Clear noodles, ground chicken, shrimp, onion, scallion, cilantro with spicy house lime dressing.',
     image: images.thai,
   },
 ]
@@ -197,7 +197,7 @@ const unique = [
     price: 20,
     category: 'Unique',
     spicy: 2,
-    description: 'Lorem Ipsum',
+    description: 'Crispy tilapia top with sweet chili sauce.',
     image: images.thai,
   },
   {
@@ -206,7 +206,7 @@ const unique = [
     price: 15,
     category: 'Unique',
     spicy: 1,
-    description: 'Lorem Ipsum',
+    description: 'Sliced chicken stir-fried in our chefs special sweet and sour sauce with slieced mango, peppers, and onion.',
     image: images.thai,
   },
   {
@@ -215,7 +215,7 @@ const unique = [
     price: 14,
     category: 'Unique',
     spicy: 2,
-    description: 'Lorem Ipsum',
+    description: 'Crispy chicken coated with spicy tamarind sauce served on bed of steamed vegetables.',
     image: images.thai,
   },
   {
@@ -224,7 +224,7 @@ const unique = [
     price: 15,
     category: 'Unique',
     spicy: 0,
-    description: 'Lorem Ipsum',
+    description: 'A classic combination of shrimp, chicken and beef sauteed with mix vegetables in a delicate sauce, sprinkled with sesame seed.',
     image: images.thai,
   },
   {
@@ -233,7 +233,7 @@ const unique = [
     price: 18,
     category: 'Unique',
     spicy: 2,
-    description: 'Lorem Ipsum',
+    description: 'Boneless duck is fried crispy with onion, bell in a spicy Thai basil sauce.',
     image: images.thai,
   },
   {
@@ -242,7 +242,7 @@ const unique = [
     price: 18,
     category: 'Unique',
     spicy: 2,
-    description: 'Lorem Ipsum',
+    description: 'Calamari, shrimp, mussels, scallops, basil, onion, bell, scallions with sweet chili sauce.',
     image: images.thai,
   },
   {
@@ -251,7 +251,7 @@ const unique = [
     price: 22,
     category: 'Unique',
     spicy: 0,
-    description: 'Lorem Ipsum',
+    description: 'Marinated steak with garlic sauce, mix veggie, served with house spicy sauce.',
     image: images.thai,
   },
 ]
@@ -263,7 +263,7 @@ const mom = [
     price: 15,
     category: 'Mom',
     spicy: 3,
-    description: 'Lorem Ipsum',
+    description: 'This is my original home town food, mince chicken with a spicy herb paste, served with lettuce and cucumber.',
     image: images.thai,
   },
   {
@@ -272,7 +272,7 @@ const mom = [
     price: 15,
     category: 'Mom',
     spicy: 1,
-    description: 'Lorem Ipsum',
+    description: 'Very delicious pork belly slow cook Northern style curry, ginger, garlic, tamarind. You must try!',
     image: images.thai,
   },
 ]
@@ -284,7 +284,7 @@ const veg = [
     price: 14,
     category: 'Veggie',
     spicy: 1,
-    description: 'Lorem Ipsum',
+    description: 'Stir fried eggplant, pepper, onion with homemade brown sauce and a taste of sweet basil leaf.',
     image: images.thai,
   },
   {
@@ -293,7 +293,7 @@ const veg = [
     price: 13,
     category: 'Veggie',
     spicy: 0,
-    description: 'Lorem Ipsum',
+    description: 'Golden fried tofu on a bed of steamed assorted vegetables and served with side of peanut sauce.',
     image: images.thai,
   },
   {
@@ -302,7 +302,7 @@ const veg = [
     price: 15,
     category: 'Veggie',
     spicy: 1,
-    description: 'Lorem Ipsum',
+    description: 'A good source of protein. Choose between red curry or Gra Pow sauce.',
     image: images.thai,
   },
 ]
@@ -344,7 +344,7 @@ const noodlesoup = [
     price: 18,
     category: 'Noodle Soup',
     spicy: 0,
-    description: 'Lorem Ipsum',
+    description: 'Bean sprout, crispy garlic, scallion, cilantro in a slow cook duck broth.',
     image: images.thai,
   },
   {
@@ -353,7 +353,7 @@ const noodlesoup = [
     price: 14,
     category: 'Noodle Soup',
     spicy: 1,
-    description: 'Lorem Ipsum',
+    description: 'Ground chicken, peanut, bean sprout, crispy garlic, fried wonton skin, scallion, cilantro.',
     image: images.thai,
   },
   {
@@ -362,7 +362,7 @@ const noodlesoup = [
     price: 16,
     category: 'Noodle Soup',
     spicy: 1,
-    description: 'Lorem Ipsum',
+    description: 'Northern-style Ramen noodle soup prepared with beef or chicken, crunchy wontons, pickled cabbage, red onion, crispy onion, crispy garlic, cilantro and scallion in a curry stock.',
     image: images.thai,
   },
   {
@@ -371,7 +371,7 @@ const noodlesoup = [
     price: 15,
     category: 'Noodle Soup',
     spicy: 0,
-    description: 'Lorem Ipsum',
+    description: 'Tender beef, meat balls, bean sprouts, cilantro, scallion, crispy garlic.',
     image: images.thai,
   },
   {
@@ -380,7 +380,7 @@ const noodlesoup = [
     price: 18,
     category: 'Noodle Soup',
     spicy: 2,
-    description: 'Lorem Ipsum',
+    description: 'A spicy Tom Yum broth with minced chicken, seafood, bean sprouts, ground peanut, cilantro and scallion.',
     image: images.thai,
   },
 ]
@@ -392,7 +392,7 @@ const curry = [
     price: 0,
     category: 'Curry',
     spicy: 2,
-    description: 'Lorem Ipsum',
+    description: 'Bell pepper, egg plant, basil.',
     image: images.thai,
   },
   {
@@ -401,7 +401,7 @@ const curry = [
     price: 0,
     category: 'Curry',
     spicy: 1,
-    description: 'Lorem Ipsum',
+    description: 'Bell, pineapples, basil.',
     image: images.thai,
   },
   {
@@ -410,7 +410,7 @@ const curry = [
     price: 0,
     category: 'Curry',
     spicy: 1,
-    description: 'Lorem Ipsum',
+    description: 'Potato, onion, carrots, cinnamon, peanut.',
     image: images.thai,
   },
   {
@@ -419,7 +419,7 @@ const curry = [
     price: 0,
     category: 'Curry',
     spicy: 1,
-    description: 'Lorem Ipsum',
+    description: 'Bamboo shoots, egg plant, bell, basil.',
     image: images.thai,
   },
   {
@@ -428,7 +428,7 @@ const curry = [
     price: 0,
     category: 'Curry',
     spicy: 1,
-    description: 'Lorem Ipsum',
+    description: 'Mango, onions, carrots, tomatoes.',
     image: images.thai,
   },
   {
@@ -437,7 +437,7 @@ const curry = [
     price: 0,
     category: 'Curry',
     spicy: 1,
-    description: 'Lorem Ipsum',
+    description: 'Potato, onion, carrots.',
     image: images.thai,
   },
   {
@@ -446,7 +446,7 @@ const curry = [
     price: 0,
     category: 'Curry',
     spicy: 1,
-    description: 'Lorem Ipsum',
+    description: 'Bell pepper, basil & kaffir lime leaf.',
     image: images.thai,
   },
 ]
@@ -458,7 +458,7 @@ const noodle = [
     price: 0,
     category: 'Noodle',
     spicy: 0,
-    description: 'Lorem Ipsum',
+    description: 'Choice of meat stir-fried with rice noodles, eggs, scallions, bean sprouts, peanuts.',
     image: images.thai,
   },
   {
@@ -467,7 +467,7 @@ const noodle = [
     price: 15,
     category: 'Noodle',
     spicy: 1,
-    description: 'Lorem Ipsum',
+    description: 'Spicy version of traditional Pad Thai, with chicken and shrimp, egg, onion, carrots, peppers, and basil.',
     image: images.thai,
   },
   {
@@ -476,7 +476,7 @@ const noodle = [
     price: 0,
     category: 'Noodle',
     spicy: 2,
-    description: 'Lorem Ipsum',
+    description: 'Wide noodles with your choice of meat, egg, onion, carrots, bell, basil leaf with spicy basil sauce.',
     image: images.thai,
   },
   {
@@ -485,7 +485,7 @@ const noodle = [
     price: 0,
     category: 'Noodle',
     spicy: 0,
-    description: 'Lorem Ipsum',
+    description: 'A healthy dish of glass noodles sauteed with a homemade sauce, egg and mix veggies.',
     image: images.thai,
   },
   {
@@ -494,7 +494,7 @@ const noodle = [
     price: 0,
     category: 'Noodle',
     spicy: 0,
-    description: 'Lorem Ipsum',
+    description: 'Choice of meat stir-fried with wide noodles, eggs, broccoli, carrots in a sweet dark soy sauce.',
     image: images.thai,
   },
   {
@@ -503,7 +503,7 @@ const noodle = [
     price: 0,
     category: 'Noodle',
     spicy: 2,
-    description: 'Lorem Ipsum',
+    description: 'Vermicelli noodles stir fried with Tahi spicy sauce, egg, seasoned with curry powder, carrots, peas, sprouts, onion and scallions, with choice of meat.',
     image: images.thai,
   },
   {
@@ -512,7 +512,7 @@ const noodle = [
     price: 0,
     category: 'Noodle',
     spicy: 0,
-    description: 'Lorem Ipsum',
+    description: 'Egg Noodle stir fried with mixed veggies in brown homemade sauce, with choice of meat.',
     image: images.thai,
   },
   {
@@ -521,7 +521,7 @@ const noodle = [
     price: 15,
     category: 'Noodle',
     spicy: 0,
-    description: 'Lorem Ipsum',
+    description: 'Wide rice noodles, your choice of meat, broccoli and carrots in a gravy sauce.',
     image: images.thai,
   },
 ]
@@ -533,7 +533,7 @@ const wok = [
     price: 15,
     category: 'Wok',
     spicy: 2,
-    description: 'Lorem Ipsum',
+    description: 'Minced chicken, basil, bell pepper, onion stir fried in a spicy Thai basil sauce. Served with fried egg on the top.',
     image: images.thai,
   },
   {
@@ -542,7 +542,7 @@ const wok = [
     price: 0,
     category: 'Wok',
     spicy: 0,
-    description: 'Lorem Ipsum',
+    description: 'White chicken stir fried with ginger sauce, onion, red bell peppers, shiitake mushroom and scallions.',
     image: images.thai,
   },
   {
@@ -551,7 +551,7 @@ const wok = [
     price: 0,
     category: 'Wok',
     spicy: 0,
-    description: 'Lorem Ipsum',
+    description: 'Choice of meat with mixed vegetable wok in a homemade gravy sauce.',
     image: images.thai,
   },
   {
@@ -560,7 +560,7 @@ const wok = [
     price: 0,
     category: 'Wok',
     spicy: 0,
-    description: 'Lorem Ipsum',
+    description: 'Choice of meat, onion, black pepper and cilantro.',
     image: images.thai,
   },
   {
@@ -569,7 +569,7 @@ const wok = [
     price: 0,
     category: 'Wok',
     spicy: 1,
-    description: 'Lorem Ipsum',
+    description: 'Choice of meat, onion, peppers, carrot, cashew nut, scallion, sweet chili sauce.',
     image: images.thai,
   },
   {
@@ -578,7 +578,7 @@ const wok = [
     price: 0,
     category: 'Wok',
     spicy: 0,
-    description: 'Lorem Ipsum',
+    description: 'Choice of meat, bell pepper, onion, cucumber, tomatoes, pineapples, and scallion.',
     image: images.thai,
   },
   {
@@ -587,7 +587,7 @@ const wok = [
     price: 0,
     category: 'Wok',
     spicy: 3,
-    description: 'Lorem Ipsum',
+    description: 'Choice of meat wok with spicy chili sauce, bell pepper, bamboo shoot, onion, basil and kaffir lime leaf.',
     image: images.thai,
   },
 ]
@@ -599,7 +599,7 @@ const friedrice = [
     price: 0,
     category: 'Fried Rice',
     spicy: 0,
-    description: 'Lorem Ipsum',
+    description: 'Egg, onion, scallions, choice of meat.',
     image: images.thai,
   },
   {
@@ -608,7 +608,7 @@ const friedrice = [
     price: 0,
     category: 'Fried Rice',
     spicy: 1,
-    description: 'Lorem Ipsum',
+    description: 'Green curry, coconut milk, egg, eggplant, bell, basil leaf.',
     image: images.thai,
   },
   {
@@ -617,7 +617,7 @@ const friedrice = [
     price: 0,
     category: 'Fried Rice',
     spicy: 0,
-    description: 'Lorem Ipsum',
+    description: 'Curry fried rice, egg, pineapple, raisin, cashew, scallions, your choice of meat.',
     image: images.thai,
   },
   {
@@ -626,7 +626,7 @@ const friedrice = [
     price: 0,
     category: 'Fried Rice',
     spicy: 2,
-    description: 'Lorem Ipsum',
+    description: 'Egg, bell, onion and basil leaf in a spicy basil sauce, your choice of meat.',
     image: images.thai,
   },
   {
@@ -635,7 +635,7 @@ const friedrice = [
     price: 0,
     category: 'Fried Rice',
     spicy: 0,
-    description: 'Lorem Ipsum',
+    description: 'Combination fried rice with Chicken, Beef, and Shrimp, egg, tomatoes, onion, broccoli and scallions.',
     image: images.thai,
   },
   {
@@ -644,7 +644,7 @@ const friedrice = [
     price: 0,
     category: 'Fried Rice',
     spicy: 1,
-    description: 'Lorem Ipsum',
+    description: 'Choice of meat, egg, onion, mango, broccoli, scallion in a sweet & spicy sauce.',
     image: images.thai,
   },
   {
@@ -653,7 +653,7 @@ const friedrice = [
     price: 18,
     category: 'Fried Rice',
     spicy: 0,
-    description: 'Lorem Ipsum',
+    description: 'Crab meat, egg, pea, carrot, scallion.',
     image: images.thai,
   },
   {
@@ -662,7 +662,7 @@ const friedrice = [
     price: 16,
     category: 'Fried Rice',
     spicy: 2,
-    description: 'Lorem Ipsum',
+    description: 'Spicy & sour fried rice, shrimps, egg, onion, lemongrass, kaffir lime leaf and cilantro.',
     image: images.thai,
   },
 ]
