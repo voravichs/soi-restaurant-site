@@ -12,18 +12,28 @@ const Navbar = () => {
   return (
     <nav className="w-screen bg-white h-24 md:h-32 grid grid-cols-5 xl:grid-cols-10 px-12">
       <div className='col-span-3 xl:col-span-2 flex-center w-4/5'>
-        <img className="object-contain" 
-          src={images.soi} 
-          alt="soi 2 logo" />
+        {restaurant === 2 ? (
+          <Link to="/soi2/home">
+            <img className="object-contain" 
+              src={images.soi} 
+              alt="soi 2 logo" />
+          </Link>
+        ) : (
+          <Link to="/soi3/home">
+            <img className="object-contain" 
+              src={images.soi} 
+              alt="soi 2 logo" />
+          </Link>
+        )}
       </div>
       <div className="col-span-4 hidden xl:flex justify-start items-center flex-1 list-none gap-8">
         <li className="font-sans text-soi-green capitalize text-xl hover:text-green-400">
           {restaurant === 2 ? (
-            <Link to="/soi2">
+            <Link to="/soi2/home">
               Home
             </Link>
           ) : (
-            <Link to="/soi3">
+            <Link to="/soi3/home">
               Home
             </Link>
           )}
@@ -74,12 +84,12 @@ const Navbar = () => {
             <div className="list-none h-1/2 flex flex-col justify-between">
               <div className="font-serif text-center text-white hover:text-yellow-200 text-4xl tracking-wider capitalize">
                 {restaurant === 2 ? (
-                  <Link to="/soi2"
+                  <Link to="/soi2/home"
                     onClick={() => setToggleMenu(false)}>
                     Home
                   </Link>
                 ) : (
-                  <Link to="/soi3"
+                  <Link to="/soi3/home"
                     onClick={() => setToggleMenu(false)}>
                     Home
                   </Link>
