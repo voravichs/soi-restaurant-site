@@ -16,7 +16,7 @@ const Jumbotron = () => (
       </div>
       <div className='flex-center'>
         <Link to="/soi2/menu">
-          <button type="button" className="font-serif font-bold tracking-wider py-4 text-3xl text-yellow-200">
+          <button type="button" className="font-serif font-bold tracking-wider py-4 text-3xl text-yellow-100 hover:text-yellow-300 cursor-pointer">
             Explore Menu
           </button>
         </Link>

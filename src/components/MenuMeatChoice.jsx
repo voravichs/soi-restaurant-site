@@ -6,10 +6,10 @@ const MenuMeatChoice = () => {
 
     return (
         <div className='flex-center mt-8'>
-            <div className='w-full lg:w-1/2 mt-16 border border-double border-8 rounded-lg p-8'>
+            <div className='w-full lg:w-1/2 mt-8 border border-double border-8 rounded-lg p-8'>
                 <div className='flex-center text-3xl lg:text-5xl h-1/6 mb-8'>
                     <TbMeat className='mr-2' />
-                    Choice of Meat
+                    Protein Options
                 </div>
                 <div className='h-5/6 grid grid-cols-1 grid-rows-5 gap-4'>
                     <div className='flex-center flex-wrap gap-4'>

@@ -10,10 +10,14 @@ import RestaurantProvider from './contexts/RestaurantContext';
 // CSS
 import './tailwind.css'
 
+// Scroll to top
+import ScrollToTop from './components/ScrollToTop'
+
 const App = () => {
   return (
     <div className='overflow-hidden'>
       <RestaurantProvider>
+        <ScrollToTop/>
         <Routes>
           <Route path='/' element={<Landing />}/>
           <Route path='/soi2' element={<Layout/>}>

@@ -29,7 +29,9 @@ const Footer = () => (
           <img src={images.spoon} className="w-20 mt-8" alt='spoon'/>
         </div>
         <div className="flex justify-center mt-2">
-          <FiFacebook className='fill-white m-2 text-4xl cursor-pointer hover:fill-yellow-500'/>
+          <a href="https://www.facebook.com/soi2Thaistreetfood/">
+            <FiFacebook className='fill-white m-2 text-4xl cursor-pointer hover:fill-yellow-500'/>
+          </a>
           <FiTwitter className='fill-white m-2 text-4xl cursor-pointer hover:fill-yellow-500'/>
           <FiInstagram className='fill-white m-2 text-4xl cursor-pointer hover:fill-yellow-500'/>
         </div>
