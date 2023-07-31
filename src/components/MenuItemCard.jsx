@@ -13,8 +13,6 @@ const MenuItemCard = ({ product, location }) => {
   // destructure product
   const { image, title, price, description, spicy, category, id, choice, choices } = product;
 
-  console.log(choices);
-
   // State of open image
   const [openImage, setOpenImage] = useState(false);
 
@@ -97,7 +95,15 @@ const MenuItemCard = ({ product, location }) => {
         </div>
         <h2 className='font-serif text-xl font-semibold text-center'>{title}</h2>
         <div className='text-lg font-semibold'>${price}</div>
-
+        {choice && (
+          <div>
+            {choices.map((meat)=> {
+              return (
+                <Meat meat={meat} key={`${id}-${meat}`}/>
+              )
+            })}
+          </div>
+        )}
       </div>
     </div>
   );
