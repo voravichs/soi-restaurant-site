@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Jumbotron = () => (
   <div className="bg-jumbotron bg-center bg-cover h-screen flex flex-col justify-center">   
-    <div class="h-full w-full overflow-hidden bg-black bg-fixed opacity-50"></div>
+    <div className="h-full w-full overflow-hidden bg-black bg-fixed opacity-50"></div>
     <div className='absolute'>
       <h1 className="font-serif text-center text-yellow-200 text-5xl sm:text-6xl lg:text-7xl 2xl:text-8xl font-bold tracking-wider capitalize leading-tight mx-12">
         The Place for Thai Street Food (2)

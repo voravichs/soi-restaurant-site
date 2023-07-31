@@ -1,13 +1,19 @@
 import React, {useState} from 'react';
 import Modal from 'react-modal'
+
 // import icons
 import { BsPlus, BsEyeFill } from 'react-icons/bs';
 import { MdClose } from 'react-icons/md';
 import { HiFire, HiOutlineFire } from 'react-icons/hi';
 
-const Product = ({ product, location }) => {
+// Import componenets
+import Meat from './Meat';
+
+const MenuItemCard = ({ product, location }) => {
   // destructure product
-  const { image, title, price, description, spicy, category } = product;
+  const { image, title, price, description, spicy, category, id, choice, choices } = product;
+
+  console.log(choices);
 
   // State of open image
   const [openImage, setOpenImage] = useState(false);
@@ -24,10 +30,10 @@ const Product = ({ product, location }) => {
   let spicyList = [];
   if (category !== "Dessert" && category !== "Drink" ) {
     for (let i = 0; i < spicy; i++) {
-      spicyList.push({spicy: <HiFire className='text-2xl text-red-500'/>})
+      spicyList.push({spicy: <HiFire className='text-2xl text-red-500' key={`${i}${id}`}/>})
     }
     for (let i = spicy; i < 5; i++) {
-      spicyList.push({spicy: <HiOutlineFire className='text-2xl'/>})
+      spicyList.push({spicy: <HiOutlineFire className='text-2xl' key={`${i}${id}`}/>})
     }
   }
 
@@ -91,9 +97,10 @@ const Product = ({ product, location }) => {
         </div>
         <h2 className='font-serif text-xl font-semibold text-center'>{title}</h2>
         <div className='text-lg font-semibold'>${price}</div>
+
       </div>
     </div>
   );
 };
 
-export default Product;
+export default MenuItemCard;

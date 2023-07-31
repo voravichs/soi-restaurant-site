@@ -1,9 +1,17 @@
-import React from 'react';
+import React, {useContext, useEffect} from 'react';
 
 import LeftPicHero from './LeftPicHero';
 import RightPicHero from './RightPicHero';
 
+import { RestaurantContext } from '../../contexts/RestaurantContext';
+
 const AboutUs = () => {
+  const {setRestaurant} = useContext(RestaurantContext);
+
+  useEffect(() => {
+    setRestaurant(2);
+  });
+
   return (
     <div>
       <LeftPicHero 

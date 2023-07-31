@@ -1,4 +1,4 @@
-import React, {useContext} from 'react';
+import React, {useContext, useEffect} from 'react';
 import AboutUs from './HomeAboutUs';
 import FindUs from './FindUs';
 import Jumbotron from './Jumbotron';
@@ -7,7 +7,10 @@ import { RestaurantContext } from '../../../contexts/RestaurantContext';
 
 const Home = () => {
   const {setRestaurant} = useContext(RestaurantContext);
-  setRestaurant(3);
+  
+  useEffect(() => {
+    setRestaurant(3);
+  });
 
   return (
     <div>

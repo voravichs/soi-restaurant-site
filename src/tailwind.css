@@ -795,6 +795,14 @@ body {
   margin-left: 0.5rem;
 }
 
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+.mt-16 {
+  margin-top: 4rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -835,6 +843,10 @@ body {
   height: 50%;
 }
 
+.h-1\/6 {
+  height: 16.666667%;
+}
+
 .h-12 {
   height: 3rem;
 }
@@ -849,6 +861,10 @@ body {
 
 .h-48 {
   height: 12rem;
+}
+
+.h-5\/6 {
+  height: 83.333333%;
 }
 
 .h-64 {
@@ -905,6 +921,10 @@ body {
 
 .w-4\/5 {
   width: 80%;
+}
+
+.w-48 {
+  width: 12rem;
 }
 
 .w-60 {
@@ -971,8 +991,16 @@ body {
   grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 
+.grid-rows-5 {
+  grid-template-rows: repeat(5, minmax(0, 1fr));
+}
+
 .flex-col {
   flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .items-start {
@@ -1007,6 +1035,10 @@ body {
   justify-content: stretch;
 }
 
+.gap-4 {
+  gap: 1rem;
+}
+
 .gap-8 {
   gap: 2rem;
 }
@@ -1035,6 +1067,10 @@ body {
   border-radius: 0.25rem;
 }
 
+.rounded-full {
+  border-radius: 9999px;
+}
+
 .rounded-lg {
   border-radius: 0.5rem;
 }
@@ -1060,6 +1096,10 @@ body {
   border-width: 2px;
 }
 
+.border-8 {
+  border-width: 8px;
+}
+
 .border-x {
   border-left-width: 1px;
   border-right-width: 1px;
@@ -1075,6 +1115,10 @@ body {
 
 .border-solid {
   border-style: solid;
+}
+
+.border-double {
+  border-style: double;
 }
 
 .border-\[\#e4e4e4\] {
@@ -1619,6 +1663,11 @@ body {
   .lg\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .lg\:text-7xl {

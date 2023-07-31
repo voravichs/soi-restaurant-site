@@ -16,13 +16,11 @@ const Carousel = () => {
                 Popular Dishes 
             </h1>
             <div className='flex gap-[30px] overflow-x-scroll pb-10'>
-                {featured.map((product) => {
-                    return (
-                        <div>
-                            <MenuItemCard product={product} key={product.id} location="home"/>
-                        </div>
-                    );
-                })}
+                {featured.map((product) => (
+                    <div key={product.id}>
+                        <MenuItemCard product={product} location="home"/>
+                    </div>
+                ))}
             </div>
         </div>
     )

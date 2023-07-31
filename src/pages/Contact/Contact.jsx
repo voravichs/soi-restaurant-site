@@ -1,7 +1,15 @@
-import React, { useRef } from 'react';
+import React, { useRef, useContext, useEffect } from 'react';
+import { RestaurantContext } from '../../contexts/RestaurantContext';
 //import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+
+    const {setRestaurant} = useContext(RestaurantContext);
+
+    useEffect(() => {
+      setRestaurant(2);
+    });
+  
 
     const form = useRef();
 

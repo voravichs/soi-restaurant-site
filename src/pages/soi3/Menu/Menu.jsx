@@ -1,10 +1,21 @@
-import React from 'react';
+import React, {useContext, useEffect} from 'react';
 import MenuSection from './MenuSection';
+import MenuMeatChoice from '../../../components/MenuMeatChoice';
 
 // import data
 import menuData from '../../../constants/data'
 
+// Context
+import { RestaurantContext } from '../../../contexts/RestaurantContext';
+
 const Menu = () => {
+
+  const {setRestaurant} = useContext(RestaurantContext);
+  
+  useEffect(() => {
+    setRestaurant(3);
+  });
+
   // Split menu data into sections
   const
   { appetizer, soup, salad, unique, mom, veg, dessert, noodlesoup, curry, noodle, wok, friedrice, drinks, sides }
@@ -26,6 +37,7 @@ const Menu = () => {
         <MenuSection section={salad}/>
 
         {/* Choice of Meat */}
+        <MenuMeatChoice />
 
         {/* Curry */}
         <h1 className='mt-20 mb-8 text-5xl'> Curry </h1>

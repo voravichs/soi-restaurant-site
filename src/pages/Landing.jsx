@@ -1,11 +1,13 @@
-import React, {useContext} from 'react';
+import React, {useContext, useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import { RestaurantContext } from '../contexts/RestaurantContext';
 
 const Landing = () => {
   const {setRestaurant} = useContext(RestaurantContext);
-
-  setRestaurant(0);
+  
+  useEffect(() => {
+    setRestaurant(0);
+  });
 
   function handleClick(num) {
     setRestaurant(num);
