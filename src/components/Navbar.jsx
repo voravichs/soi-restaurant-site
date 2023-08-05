@@ -71,7 +71,7 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="col-span-1 flex-center">
-        <MdShoppingCart className='text-soi-green text-3xl md:text-4xl'/>
+        
       </div>
       <div className="col-span-1 flex-center xl:hidden">
         <GiHamburgerMenu className='text-soi-green text-3xl md:text-4xl' onClick={() => setToggleMenu(true)} />

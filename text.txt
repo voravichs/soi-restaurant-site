@@ -1,4 +1,1 @@
-
-            <Route path="aboutus" element={<AboutUs />} />
-            <Route path="menu" element={<Menu />} />
-            <Route path="contact" element={<Contact />} />
+'Rice nd', 'ramen nd', 'wide nd', 'vermacelli', 'glass nd', 'chicken pork veg or tofu', 'beef +4', 'shrimp 18', 'duck +5', 'belly 18', '+egg +1'

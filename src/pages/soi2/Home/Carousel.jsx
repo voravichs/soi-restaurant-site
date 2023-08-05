@@ -1,7 +1,7 @@
 import React from 'react';
 
 // import data
-import menuData from '../../../constants/data'
+import menuData from '../../../constants/soi2data'
 
 // Import components
 import MenuItemCard from '../../../components/MenuItemCard'
@@ -21,7 +21,7 @@ const Carousel = () => {
                     See Full Menu
                 </div>
             </Link>
-            <div className='flex gap-[30px] overflow-x-scroll pb-10'>
+            <div className='flex gap-[30px] overflow-x-scroll pb-10 h-[500px]'>
                 {featured.map((product) => (
                     <div key={product.id}>
                         <MenuItemCard product={product} location="home"/>

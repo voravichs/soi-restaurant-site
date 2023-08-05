@@ -1,7 +1,7 @@
 import React from 'react';
 
 // import data
-import menuData from '../../../constants/data'
+import menuData from '../../../constants/soi3data'
 
 // Import components
 import MenuItemCard from '../../../components/MenuItemCard'

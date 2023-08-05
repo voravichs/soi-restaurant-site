@@ -15,7 +15,6 @@ const Home = () => {
   return (
     <div>
       <Jumbotron />
-      <Carousel />
       <AboutUs />
       <FindUs />
     </div>

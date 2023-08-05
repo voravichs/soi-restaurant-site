@@ -6,7 +6,7 @@ import MenuMeatChoice from '../../../components/MenuMeatChoice';
 import { LuVegan } from 'react-icons/lu'
 
 // import data
-import menuData from '../../../constants/data'
+import menuData from '../../../constants/soi2data'
 
 // context
 import { RestaurantContext } from '../../../contexts/RestaurantContext';

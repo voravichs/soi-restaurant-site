@@ -1162,7 +1162,7 @@ const featured = [
   },
 ]
 
-const menu = {
+const soi2data = {
   appetizer,
   soup,
   salad,
@@ -1180,4 +1180,4 @@ const menu = {
   featured,
 }
 
-export default menu;
+export default soi2data;

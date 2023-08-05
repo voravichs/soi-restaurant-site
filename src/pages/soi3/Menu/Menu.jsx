@@ -1,9 +1,9 @@
 import React, {useContext, useEffect} from 'react';
 import MenuSection from './MenuSection';
-import MenuMeatChoice from '../../../components/MenuMeatChoice';
+import MenuNoodleMeatChoice from '../../../components/MenuNoodleMeatChoice';
 
 // import data
-import menuData from '../../../constants/data'
+import menuData from '../../../constants/soi3data'
 
 // Context
 import { RestaurantContext } from '../../../contexts/RestaurantContext';
@@ -18,7 +18,14 @@ const Menu = () => {
 
   // Split menu data into sections
   const
-  { appetizer, soup, salad, unique, mom, veg, dessert, noodlesoup, curry, noodle, wok, friedrice, drinks, sides }
+  { appetizer,
+    ricemeat,
+    salad,
+    specials,
+    noodle,
+    dessert,
+    drinks,
+    sides, }
       = menuData;
 
   return (
@@ -28,48 +35,24 @@ const Menu = () => {
         <h1 className='mb-8 text-5xl'> Appetizers </h1>
         <MenuSection section={appetizer}/>
 
-        {/* Soup */}
-        <h1 className='mt-20 mb-8 text-5xl'> Soup </h1>
-        <MenuSection section={soup}/>
+        {/* RiceMeat */}
+        <h1 className='mt-20 mb-8 text-5xl'> Rice & Meat </h1>
+        <MenuSection section={ricemeat}/>
 
         {/* Salad */}
-        <h1 className='mt-20 mb-8 text-5xl'> Thai Spicy Plates </h1>
+        <h1 className='mt-20 mb-8 text-5xl'> Salad </h1>
         <MenuSection section={salad}/>
 
-        {/* Choice of Meat */}
-        <MenuMeatChoice />
+        {/* Choice of Meat and Noodles */}
+        <MenuNoodleMeatChoice/>
 
-        {/* Curry */}
-        <h1 className='mt-20 mb-8 text-5xl'> Curry </h1>
-        <MenuSection section={curry}/>
-
-        {/* Wok */}
-        <h1 className='mt-20 mb-8 text-5xl'> Wok </h1>
-        <MenuSection section={wok}/>
+        {/* Specials */}
+        <h1 className='mt-20 mb-8 text-5xl'> Special </h1>
+        <MenuSection section={specials}/>
 
         {/* Noodles */}
-        <h1 className='mt-20 mb-8 text-5xl'> Noodles </h1>
+        <h1 className='mt-20 mb-8 text-5xl'> Soi 3 Noodles </h1>
         <MenuSection section={noodle}/>
-
-        {/* Fried Rice */}
-        <h1 className='mt-20 mb-8 text-5xl'> Fried Rice </h1>
-        <MenuSection section={friedrice}/>
-
-        {/* Unique */}
-        <h1 className='mt-20 mb-8 text-5xl'> Soi 2 Unique </h1>
-        <MenuSection section={unique}/>
-
-        {/* Mom */}
-        <h1 className='mt-20 mb-8 text-5xl'> Mom's Recipes </h1>
-        <MenuSection section={mom}/>
-
-        {/* Noodle Soup */}
-        <h1 className='mt-20 mb-8 text-5xl'> Street Noodles </h1>
-        <MenuSection section={noodlesoup}/>
-        
-        {/* Vegetarian */}
-        <h1 className='mt-20 mb-8 text-5xl'> Vegetarian </h1>
-        <MenuSection section={veg}/>
 
         {/* Dessert */}
         <h1 className='mt-20 mb-8 text-5xl'> Dessert </h1>

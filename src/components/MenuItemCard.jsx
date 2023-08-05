@@ -35,14 +35,14 @@ const MenuItemCard = ({ product, location }) => {
     }
     for (let i = spicy; i < 5; i++) {
       spicyList.push({
-        spicy: <HiOutlineFire className='text-2xl' key={`${i}${id}`}/>,
-        bigspicy: <HiOutlineFire className='text-4xl' key={`${i}${id}`}/>
+        spicy: <HiOutlineFire className='text-2xl opacity-50' key={`${i}${id}`}/>,
+        bigspicy: <HiOutlineFire className='text-4xl opacity-50' key={`${i}${id}`}/>
       })
     }
   }
 
   return (
-    <div className={`${location !== "menu" ? "w-72" : ""} border border-[#e4e4e4] rounded-md bg-white relative overflow-hidden group transition flex flex-col`}>
+    <div className={`${location !== "menu" ? "w-72 h-full" : ""} border border-[#e4e4e4] rounded-md bg-white relative overflow-hidden group transition flex flex-col`}>
       {/* image */}
       <img
         className='h-48 object-cover w-full group-hover:scale-110 transition duration-300 shrink-0'
@@ -52,11 +52,6 @@ const MenuItemCard = ({ product, location }) => {
 
       {/* buttons */}
       <div className='absolute top-3 right-3 group-hover:right-5 p-2 flex flex-col items-center justify-center gap-y-2 opacity-0 group-hover:opacity-100 transition-all duration-300'>
-        <button>
-          <div className='flex justify-center items-center text-white w-12 h-12 bg-red-500'>
-            <BsPlus className='text-3xl' />
-          </div>
-        </button>
         <div 
           onClick={handleOpenImage}
           className='w-12 h-12 bg-white flex justify-center items-center text-primary drop-shadow-xl cursor-pointer'>
@@ -115,13 +110,15 @@ const MenuItemCard = ({ product, location }) => {
           {title}
         </div>
         <div className='text-lg font-semibold'>
-          {price !== altprice ? (
+          {altprice == null ? (
+            `$${price}`
+          ) : price !== altprice ? (
             <div>
               <p>Lunch: ${price}</p>
               <p>Dinner: ${altprice}</p>
             </div>
           ) : (
-            `$${altprice}`
+            `$${price}`
           )}
         </div>
         {choice && (
