@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import Modal from 'react-modal'
 
 // import icons
-import { BsPlus, BsEyeFill } from 'react-icons/bs';
+import { BsEyeFill } from 'react-icons/bs';
 import { MdClose } from 'react-icons/md';
 import { HiFire, HiOutlineFire } from 'react-icons/hi';
 
@@ -42,7 +42,7 @@ const MenuItemCard = ({ product, location }) => {
   }
 
   return (
-    <div className={`${location !== "menu" ? "w-72 h-full" : ""} border border-[#e4e4e4] rounded-md bg-white relative overflow-hidden group transition flex flex-col`}>
+    <div className={`${location !== "menu" ? "w-72 h-full" : ""} border border-soi-green rounded-md bg-white relative overflow-hidden group transition flex flex-col`}>
       {/* image */}
       <img
         className='h-48 object-cover w-full group-hover:scale-110 transition duration-300 shrink-0'
@@ -86,10 +86,10 @@ const MenuItemCard = ({ product, location }) => {
                 ))}
               </div>
               {description}
-              <div className='mt-2 w-1/3 flex-center gap-4'>
+              <div className='mt-2 w-full flex-center gap-4'>
                 {choices.map((meat)=> {
                   return (
-                    <Meat meat={meat} key={`${id}-${meat}`}/>
+                    <Meat meat={meat} size='xl' key={`${id}-${meat}`}/>
                   )
                 })}
               </div>
@@ -125,7 +125,7 @@ const MenuItemCard = ({ product, location }) => {
           <div className='mt-2'>
             {choices.map((meat)=> {
               return (
-                <Meat meat={meat} key={`${id}-${meat}`}/>
+                <Meat meat={meat} size='sm' key={`${id}-${meat}`}/>
               )
             })}
           </div>

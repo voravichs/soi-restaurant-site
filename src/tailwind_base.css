@@ -3,10 +3,6 @@
 @tailwind utilities;
 
 @layer base {
-  body {
-    @apply font-primary text-primary bg-soi-green;
-  }
-
   .flex-center {
     @apply flex justify-center items-center;
   }

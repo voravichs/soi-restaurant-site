@@ -12,15 +12,21 @@ const Carousel = () => {
     const { featured } = menuData;
 
     return (
-        <div className='flex flex-col m-20'>
-            <div className='flex font-serif text-yellow-200 text-5xl mb-8'> 
-                Popular Dishes 
-            </div>
-            <Link to="/soi2/menu">
-                <div className='flex font-serif text-yellow-100 hover:text-yellow-300 text-2xl mb-8 cursor-pointer'>
-                    See Full Menu
+        <div className='flex flex-col m-16 p-8 bg-white border border-yellow-200 border-4 rounded-lg'>
+            <div className='flex-center mb-4 flex-col gap-4 md:flex-row'>
+                <div className='flex font-serif text-soi-green text-center text-5xl'> 
+                    Popular Dishes 
                 </div>
-            </Link>
+                <Link className='flex items-end' to="/soi2/menu">
+                    <button className='font-serif text-white bg-soi-green p-2 text-2xl rounded-tl-lg rounded-br-lg hover:scale-105 transition duration-300 shrink-0'>
+                        See Full Menu
+                    </button>
+                </Link>
+            </div>
+            <div className='flex-center'>
+                <div className='w-64 h-1 mb-4 border border-soi-green bg-soi-green'/>
+            </div>
+            
             <div className='flex gap-[30px] overflow-x-scroll pb-10 h-[500px]'>
                 {featured.map((product) => (
                     <div key={product.id}>

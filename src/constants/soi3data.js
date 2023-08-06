@@ -519,6 +519,75 @@ const sides = [
   },
 ]
 
+const featured = [
+  {
+    id: 'rm1',
+    title: 'Khao Nah Ped',
+    price: 18,
+    category: 'RiceMeat',
+    spicy: 0,
+    choice: false,
+    choices: [],
+    description: 'Roast duck over rice, Bok Choy, pickled ginger on top with ginger gravy sauce.',
+    image: images.thai,
+  },
+  {
+    id: 'rm3',
+    title: 'Khao Moo Krob',
+    price: 15,
+    category: 'RiceMeat',
+    spicy: 0,
+    choice: false,
+    choices: [],
+    description: 'Rice and crispy pork belly, cucumber, boiled egg on top with gravy sweet and sour sauce.',
+    image: images.thai,
+  },
+  {
+    id: 's2',
+    title: 'Spicy Ramen',
+    price: 15,
+    category: 'Special',
+    spicy: 1,
+    choice: false,
+    choices: [],
+    description: 'Chashu in a spicy version. Ramen noodle with miso soup base, slow cook pork belly, boiled egg, sesame seed, and scallion.',
+    image: images.thai,
+  },
+  {
+    id: 's5',
+    title: 'Khao Soi',
+    price: 16,
+    category: 'Special',
+    spicy: 1,
+    choice: false,
+    choices: [],
+    description: 'Ramen noodle, chicken, crunchy wonton in a curry stock, red onion, pickled cabbage, crispy garlic, scallion, and cilantro.',
+    image: images.thai,
+  },
+  {
+    id: 'n1',
+    title: 'Aunty Noodle',
+    price: 12,
+    category: 'Noodle',
+    spicy: 0,
+    choice: true,
+    choices: ['Noodle', 'Protein'],
+    description: '30 years Aunty recipe clear soup stock recommended with pork, bean sprout, crispy garlic, scallion, and cilantro.',
+    image: images.thai,
+  },
+  {
+    id: 'n2',
+    title: 'Tom Yum Noodle',
+    price: 14,
+    category: 'Noodle',
+    spicy: 2,
+    choice: true,
+    choices: ['Noodle', 'Protein'],
+    description: 'Spicy and sour soup stock, bean sprout, ground peanut, crispy garlic, scallion and cilantro.',
+    image: images.thai,
+  },
+]
+
 const soi3data = {
   appetizer,
   ricemeat,
@@ -528,6 +597,7 @@ const soi3data = {
   dessert,
   drinks,
   sides,
+  featured,
 }
 
 export default soi3data;

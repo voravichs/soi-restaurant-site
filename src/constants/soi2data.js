@@ -475,7 +475,7 @@ const noodlesoup = [
     category: 'Noodle Soup',
     spicy: 1,
     choice: true,
-    choices: ['Chicken/Rice Noodle', 'Chicken/Ramen Noodle', 'Beef/Rice Noodle', 'Beef/Ramen Noodle'],
+    choices: ['Chicken', 'Beef'],
     description: 'Northern-style Ramen noodle soup prepared with beef or chicken, crunchy wontons, pickled cabbage, red onion, crispy onion, crispy garlic, cilantro and scallion in a curry stock.',
     image: images.thai,
   },

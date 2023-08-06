@@ -1,14 +1,14 @@
 import React from 'react';
 import { TbMeat } from 'react-icons/tb';
 
-const Meat = ({meat}) => {
+const Meat = ({meat, size}) => {
     return (
-        <div className='text-center border rounded-full p-2 w-48'>
+        <div className='font-sans text-center border border-soi-green rounded-full p-2 w-48'>
             <div className='flex-center'>
                 {meat === "Protein" && 
                     <TbMeat className='text-2xl mr-2'/>
                 } 
-                <p>{meat}</p>
+                <p className={`text-${size}`}>{meat}</p>
             </div>
         </div>
     )

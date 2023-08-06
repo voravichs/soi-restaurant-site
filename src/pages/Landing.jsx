@@ -14,7 +14,7 @@ const Landing = () => {
   }
 
   return (
-    <div className='h-screen w-screen grid grid-cols-2 p-24'>
+    <div className='h-screen w-screen grid grid-cols-2'>
       <Link 
         className='flex-center text-9xl font-serif hover:text-yellow-200 hover:shadow-lg'
         to={'/soi2/home'} 

@@ -7,7 +7,7 @@ import { Footer, Navbar, Tabs } from '../components';
 const Layout = () => {
     return (
         <div>
-            <div className='px-12 pt-4 bg-soi-green'>
+            <div className='px-12 pt-3 bg-soi-green'>
                 <Tabs />
             </div>
             <Navbar />
