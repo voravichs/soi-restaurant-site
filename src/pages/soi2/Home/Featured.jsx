@@ -25,9 +25,7 @@ const Featured = () => {
                     </button>
                 </Link>
             </div>
-            <div className='flex-center'>
-                <div className='w-64 h-1 mb-4 border bg-black' />
-            </div>
+            <div className='w-64 h-1 mb-4 border bg-black mx-auto' />
             <div className='flex gap-[30px] overflow-x-scroll pb-4 h-[500px]'>
                 {featured.map((product) => (
                     <div key={product.id}>

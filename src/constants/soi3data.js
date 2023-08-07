@@ -352,7 +352,7 @@ const specials = [
     image: images.thai,
   },
   {
-    id: 's9',
+    id: 's10',
     title: 'Spicy Nam Ngaew',
     price: 15,
     category: 'Special',

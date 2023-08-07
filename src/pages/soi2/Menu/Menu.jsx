@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from 'react';
 import MenuSection from './MenuSection';
-import MenuMeatChoice from '../../../components/MenuMeatChoice';
+import MenuMeatChoice from './MenuMeatChoice';
 
 // Icons
 import { LuVegan } from 'react-icons/lu'
@@ -24,68 +24,82 @@ const Menu = () => {
       = menuData;
 
   return (
-    <div className='p-16'>
+    <div className='py-16 px-8 sm:px-16'>
       <div className='container mx-auto'>
         {/* Appetizers */}
-        <h1 className='mb-8 text-5xl'> Appetizers </h1>
+        <h1 className='mb-4 font-serif font-semibold text-6xl'> Appetizers </h1>
+        <div className='w-48 sm:w-96 h-1 mb-4 border bg-black'/>
         <MenuSection section={appetizer} />
 
         {/* Soup */}
-        <h1 className='mt-16 mb-8 text-5xl'> Soup </h1>
+        <h1 className='mt-16 mb-4 font-serif font-semibold text-6xl'> Soup </h1>
+        <div className='w-48 sm:w-96 h-1 mb-4 border bg-black'/>
         <MenuSection section={soup} />
 
         {/* Salad */}
-        <h1 className='mt-16 mb-8 text-5xl'> Thai Spicy Plates </h1>
+        <h1 className='mt-16 mb-4 font-serif font-semibold text-6xl'> Thai Spicy Plates </h1>
+        <div className='w-48 sm:w-96 h-1 mb-4 border bg-black'/>
         <MenuSection section={salad} />
 
         {/* Choice of Meat */}
         <MenuMeatChoice />
 
         {/* Curry */}
-        <h1 className='mt-16 mb-8 text-5xl'> Curry </h1>
+        <h1 className='mt-16 mb-4 font-serif font-semibold text-6xl'> Curry </h1>
+        <div className='w-48 sm:w-96 h-1 mb-4 border bg-black'/>
         <MenuSection section={curry} />
 
         {/* Wok */}
-        <h1 className='mt-16 mb-8 text-5xl'> Wok </h1>
+        <h1 className='mt-16 mb-4 font-serif font-semibold text-6xl'> Wok </h1>
+        <div className='w-48 sm:w-96 h-1 mb-4 border bg-black'/>
         <MenuSection section={wok} />
 
         {/* Noodles */}
-        <h1 className='mt-16 mb-8 text-5xl'> Noodles </h1>
+        <h1 className='mt-16 mb-4 font-serif font-semibold text-6xl'> Noodles </h1>
+        <div className='w-48 sm:w-96 h-1 mb-4 border bg-black'/>
         <MenuSection section={noodle} />
 
         {/* Fried Rice */}
-        <h1 className='mt-16 mb-8 text-5xl'> Fried Rice </h1>
+        <h1 className='mt-16 mb-4 font-serif font-semibold text-6xl'> Fried Rice </h1>
+        <div className='w-48 sm:w-96 h-1 mb-4 border bg-black'/>
         <MenuSection section={friedrice} />
 
         {/* Unique */}
-        <h1 className='mt-16 mb-8 text-5xl'> Soi 2 Unique </h1>
+        <h1 className='mt-16 mb-4 font-serif font-semibold text-6xl'> Soi 2 Unique </h1>
+        <div className='w-48 sm:w-96 h-1 mb-4 border bg-black'/>
         <MenuSection section={unique} />
 
         {/* Mom */}
-        <h1 className='mt-16 mb-8 text-5xl'> Mom's Recipes </h1>
+        <h1 className='mt-16 mb-4 font-serif font-semibold text-6xl'> Mom's Recipes </h1>
+        <div className='w-48 sm:w-96 h-1 mb-4 border bg-black'/>
         <MenuSection section={mom} />
 
         {/* Noodle Soup */}
-        <h1 className='mt-16 mb-8 text-5xl'> Street Noodles </h1>
+        <h1 className='mt-16 mb-4 font-serif font-semibold text-6xl'> Street Noodles </h1>
+        <div className='w-48 sm:w-96 h-1 mb-4 border bg-black'/>
         <MenuSection section={noodlesoup} />
 
         {/* Vegetarian */}
-        <div className='mt-16 mb-8 text-5xl flex'>
-          <LuVegan className='mr-2' />
+        <div className='mt-16 mb-4 font-serif font-semibold text-6xl flex'>
+          <LuVegan className='text-5xl mr-2 my-auto' />
           Vegetarian
         </div>
+        <div className='w-48 sm:w-96 h-1 mb-4 border bg-black'/>
         <MenuSection section={veg} />
 
         {/* Dessert */}
-        <h1 className='mt-16 mb-8 text-5xl'> Dessert </h1>
+        <h1 className='mt-16 mb-4 font-serif font-semibold text-6xl'> Dessert </h1>
+        <div className='w-48 sm:w-96 h-1 mb-4 border bg-black'/>
         <MenuSection section={dessert} />
 
         {/* Drinks */}
-        <h1 className='mt-16 mb-8 text-5xl'> Drinks </h1>
+        <h1 className='mt-16 mb-4 font-serif font-semibold text-6xl'> Drinks </h1>
+        <div className='w-48 sm:w-96 h-1 mb-4 border bg-black'/>
         <MenuSection section={drinks} />
 
         {/* Sides */}
-        <h1 className='mt-16 mb-8 text-5xl'> Sides </h1>
+        <h1 className='mt-16 mb-4 font-serif font-semibold text-6xl'> Sides </h1>
+        <div className='w-48 sm:w-96 h-1 mb-4 border bg-black'/>
         <MenuSection section={sides} />
       </div>
     </div>

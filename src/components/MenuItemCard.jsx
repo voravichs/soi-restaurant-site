@@ -51,7 +51,7 @@ const MenuItemCard = ({ product, location }) => {
       />
 
       {/* buttons */}
-      <div className='absolute top-3 right-3 group-hover:right-5 p-2 flex flex-col items-center justify-center gap-y-2 opacity-0 group-hover:opacity-100 transition-all duration-300'>
+      <div className='absolute top-3 right-5 lg:right-3 lg:group-hover:right-5 p-2 flex flex-col items-center justify-center gap-y-2 opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition-all duration-300'>
         <div 
           onClick={handleOpenImage}
           className='w-12 h-12 bg-white flex justify-center items-center text-primary drop-shadow-xl cursor-pointer'>
@@ -89,7 +89,7 @@ const MenuItemCard = ({ product, location }) => {
               <div className='mt-2 w-full flex-center gap-4'>
                 {choices.map((meat)=> {
                   return (
-                    <Meat meat={meat} size='xl' key={`${id}-${meat}`}/>
+                    <Meat meat={meat} size='xl' color='bg-gray-200' key={`${id}-${meat}`}/>
                   )
                 })}
               </div>
@@ -122,10 +122,10 @@ const MenuItemCard = ({ product, location }) => {
           )}
         </div>
         {choice && (
-          <div className='mt-4'>
+          <div className='mt-4 flex flex-col gap-1'>
             {choices.map((meat)=> {
               return (
-                <Meat meat={meat} size='sm' key={`${id}-${meat}`}/>
+                <Meat meat={meat} size='sm' color='bg-gray-200' key={`${id}-${meat}`}/>
               )
             })}
           </div>

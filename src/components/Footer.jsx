@@ -41,11 +41,11 @@ const Footer = () => {
           <div className="flex justify-center mt-2 gap-4">
             {restaurant === 2 ? (
               <a href="https://www.facebook.com/soi2Thaistreetfood/">
-                <BsFacebook className='text-6xl cursor-pointer fill-white hover:fill-sky-400' />
+                <BsFacebook className='text-6xl cursor-pointer fill-white hover:fill-blue-500' />
               </a>
             ) : (
               <a href="https://www.facebook.com/people/Soi-3-Thai-Noodle-Shop/100027156716719/">
-                <BsFacebook className='text-6xl cursor-pointer fill-white hover:fill-sky-400' />
+                <BsFacebook className='text-6xl cursor-pointer fill-white hover:fill-blue-500' />
               </a>
             )}
             {restaurant === 2 ? (

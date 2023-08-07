@@ -23,9 +23,6 @@ module.exports = withMT({
       backgroundImage: {
         jumbotron: "url('./assets/testhero.jpg')",
       },
-      translate: {
-        
-      }
     },
   },
   plugins: [],
