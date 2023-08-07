@@ -42,7 +42,7 @@ const MenuItemCard = ({ product, location }) => {
   }
 
   return (
-    <div className={`${location !== "menu" ? "w-72 h-full" : ""} border border-2 rounded-xl bg-white relative overflow-hidden group transition flex flex-col`}>
+    <div className={`${location !== "menu" ? "w-72 h-full" : ""} border border-2 rounded-xl bg-white relative overflow-hidden group transition flex flex-col shadow-sm`}>
       {/* image */}
       <img
         className='h-48 object-cover w-full group-hover:scale-110 transition duration-300 shrink-0'
