@@ -1,25 +1,19 @@
 import React from 'react';
 
-import { Link } from 'react-router-dom';
-
 const Jumbotron = () => (
   <div className="bg-jumbotron bg-center bg-cover h-screen flex flex-col justify-center">   
     <div className="h-full w-full overflow-hidden bg-black bg-fixed opacity-50"></div>
-    <div className='absolute'>
-      <h1 className="font-serif text-center text-yellow-200 text-5xl sm:text-6xl lg:text-7xl 2xl:text-8xl font-bold tracking-wider capitalize leading-tight mx-12">
-        The Place for Thai Street Food (3)
+    <div className='absolute h-full w-full px-12 sm:px-24 2xl:px-48 flex-center flex-col'>
+      <h1 className="font-serif text-center text-yellow-300 text-6xl sm:text-7xl xl:text-8xl font-bold tracking-wider capitalize leading-tight">
+        Soi 3 Thai Noodle Shop
       </h1>
-      <div className='mx-24 2xl:mx-48'>
-        <p className="font-sans text-center text-white font-normal tracking-wider my-8 text-xl lg:text-2xl">
-          Experience the warmth of Thailand in every dish at our restaurant, where we serve authentic Thai cuisine crafted with passion and the finest local ingredients
-        </p>
+      <div className="font-serif text-center text-yellow-300 font-bold tracking-wider text-4xl lg:text-5xl">
+        <p> (563) 345-4321 </p> 
       </div>
-      <div className='flex-center'>
-        <Link to="/soi2/menu">
-          <button type="button" className="font-serif font-bold tracking-wider py-4 text-3xl text-yellow-200">
-            Explore Menu
-          </button>
-        </Link>
+      <div className="font-serif text-center text-white font-normal tracking-wider my-8 text-2xl lg:text-3xl">
+        <p> Monday - Friday: 11AM - 3PM & 4PM - 9PM </p> 
+        <p> Saturday: 12PM - 9PM </p> 
+        <p> Sunday: CLOSED </p>
       </div>
     </div>
   </div>

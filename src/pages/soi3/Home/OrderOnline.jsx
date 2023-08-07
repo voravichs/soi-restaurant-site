@@ -10,7 +10,7 @@ const OrderOnline  = () => (
             Visit Us!
         </p>
         <p className='font-serif text-center text-3xl font-bold tracking-wide mb-8'>
-            1825 2nd Ave, Rock Island, IL 61201
+            102 E 3rd St, Davenport, IA 52801
         </p>
         
         <div className='flex-center'>
@@ -20,26 +20,21 @@ const OrderOnline  = () => (
             
             <div className='flex flex-col font-serif text-center text-3xl tracking-wide mb-8'>
                 <p className='font-bold'>Order by phone</p>
-                <p>(309) 206-4169</p>
+                <p>(563) 345-4321</p>
             </div>
         </div>
         
         <p className='font-serif text-center text-3xl font-bold tracking-wide'>We are also available for delivery/pickup on:</p>
-        <div className='grid grid-rows-2 md:grid-rows-1 md:grid-cols-2'>
-            <a href='https://www.grubhub.com/restaurant/soi-2-thai-1825-2nd-ave-rock-island/4378432'>
+        <div>
+            <a 
+                className='flex-center'
+                href='https://www.grubhub.com/restaurant/soi-2-thai-1825-2nd-ave-rock-island/4378432'>
                 <img
                     src={images.grubhub}
                     alt='grubhub logo'
-                    className='w-full p-8 2xl:p-16'
+                    className='w-1/2 2xl:w-1/3 p-8 2xl:p-16'
                 />
-            </a>  
-            <a href='https://www.doordash.com/store/soi-2-thai-rock-island-607063/'>
-                <img
-                    src={images.doordash}
-                    alt='doordash logo'
-                    className='w-full p-8 2xl:p-16'
-                />
-            </a>  
+            </a>   
         </div>
     </div>
     <div className='w-full lg:w-1/2 flex-center'>

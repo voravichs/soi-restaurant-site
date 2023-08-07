@@ -8,15 +8,13 @@ const Jumbotron = () => (
         Soi 2 Thai Street Food
       </h1>
       <div className="font-serif text-center text-yellow-300 font-bold tracking-wider text-4xl lg:text-5xl">
-        <p> 309-206-4169 </p> 
+        <p> (309) 206-4169 </p> 
       </div>
       <div className="font-serif text-center text-white font-normal tracking-wider my-8 text-2xl lg:text-3xl">
         <p> Monday: CLOSED </p> 
         <p> Tuesday - Friday: 11AM - 3PM & 4:30PM - 9PM</p>
         <p> Saturday: 12PM - 9PM</p>
         <p> Sunday: 12PM - 8PM </p> 
-      </div>
-      <div className='flex-center'>
       </div>
     </div>
   </div>

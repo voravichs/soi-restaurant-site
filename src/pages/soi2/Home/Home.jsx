@@ -1,13 +1,15 @@
-import React, {useContext, useEffect} from 'react';
+import React, { useContext, useEffect } from 'react';
 import Jumbotron from './Jumbotron';
-import Carousel from './Carousel';
+import Featured from './Featured';
 import Hero from './Hero';
+import OrderOnline from './OrderOnline';
+import CrossPromo from './CrossPromo';
 
 import { RestaurantContext } from '../../../contexts/RestaurantContext';
-import OrderOnline from './OrderOnline';
+
 const Home = () => {
-  const {setRestaurant} = useContext(RestaurantContext);
-  
+  const { setRestaurant } = useContext(RestaurantContext);
+
   useEffect(() => {
     setRestaurant(2);
   });
@@ -15,9 +17,10 @@ const Home = () => {
   return (
     <div>
       <Jumbotron />
-      <Carousel />
+      <Featured />
       <Hero />
-      <OrderOnline/>
+      <OrderOnline />
+      <CrossPromo />
     </div>
   )
 }

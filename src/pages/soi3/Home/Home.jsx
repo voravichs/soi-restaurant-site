@@ -1,6 +1,10 @@
 import React, {useContext, useEffect} from 'react';
 import Jumbotron from './Jumbotron';
-import Carousel from './Carousel';
+import Featured from './Featured';
+import Hero from './Hero';
+import OrderOnline from './OrderOnline';
+import CrossPromo from './CrossPromo'
+
 import { RestaurantContext } from '../../../contexts/RestaurantContext';
 
 const Home = () => {
@@ -13,7 +17,10 @@ const Home = () => {
   return (
     <div>
       <Jumbotron />
-      <Carousel/>
+      <Featured/>
+      <Hero/>
+      <OrderOnline/>
+      <CrossPromo/>
     </div>
   )
 }

@@ -6,7 +6,7 @@ const Tabs = () => {
   const { restaurant } = useContext(RestaurantContext);
 
   return (
-    <div className="tabs w-full md:w-1/2">
+    <div className="tabs w-full md:w-1/2 xl:w-1/3">
       <ol className="h-full tab-list grid grid-flow-col justify-stretch items-end ">
         <Link to={'/soi2/home'}>
           <li

@@ -15,7 +15,7 @@ import ScrollToTop from './components/ScrollToTop'
 
 const App = () => {
   return (
-    <div className='overflow-hidden'>
+    <div className='overflow-hidden bg-yellow-50'>
       <RestaurantProvider>
         <ScrollToTop/>
         <Routes>

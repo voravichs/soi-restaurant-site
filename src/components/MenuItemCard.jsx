@@ -29,20 +29,20 @@ const MenuItemCard = ({ product, location }) => {
   if (category !== "Dessert" && category !== "Drink" ) {
     for (let i = 0; i < spicy; i++) {
       spicyList.push({
-        spicy: <HiFire className='text-2xl text-red-500' key={`${i}${id}`}/>,
-        bigspicy: <HiFire className='text-4xl text-red-500' key={`${i}${id}`}/>
+        spicy: <HiFire className='text-3xl text-red-500' key={`${i}${id}`}/>,
+        bigspicy: <HiFire className='text-5xl text-red-500' key={`${i}${id}`}/>
       })
     }
     for (let i = spicy; i < 5; i++) {
       spicyList.push({
-        spicy: <HiOutlineFire className='text-2xl opacity-50' key={`${i}${id}`}/>,
-        bigspicy: <HiOutlineFire className='text-4xl opacity-50' key={`${i}${id}`}/>
+        spicy: <HiOutlineFire className='text-3xl opacity-50' key={`${i}${id}`}/>,
+        bigspicy: <HiOutlineFire className='text-5xl opacity-50' key={`${i}${id}`}/>
       })
     }
   }
 
   return (
-    <div className={`${location !== "menu" ? "w-72 h-full" : ""} border border-soi-green rounded-md bg-white relative overflow-hidden group transition flex flex-col`}>
+    <div className={`${location !== "menu" ? "w-72 h-full" : ""} border border-2 rounded-xl bg-white relative overflow-hidden group transition flex flex-col`}>
       {/* image */}
       <img
         className='h-48 object-cover w-full group-hover:scale-110 transition duration-300 shrink-0'
@@ -106,7 +106,7 @@ const MenuItemCard = ({ product, location }) => {
             item.spicy
           ))}
         </div>
-        <div className='font-serif text-xl font-semibold text-center'>
+        <div className='font-serif text-2xl font-bold text-center'>
           {title}
         </div>
         <div className='text-lg font-semibold'>
@@ -114,15 +114,15 @@ const MenuItemCard = ({ product, location }) => {
             `$${price}`
           ) : price !== altprice ? (
             <div>
-              <p>Lunch: ${price}</p>
-              <p>Dinner: ${altprice}</p>
+              <p className='text-md'>Lunch: ${price}</p>
+              <p className='text-md'>Dinner: ${altprice}</p>
             </div>
           ) : (
             `$${price}`
           )}
         </div>
         {choice && (
-          <div className='mt-2'>
+          <div className='mt-4'>
             {choices.map((meat)=> {
               return (
                 <Meat meat={meat} size='sm' key={`${id}-${meat}`}/>

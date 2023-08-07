@@ -10,8 +10,8 @@ const Navbar = () => {
   const { restaurant } = useContext(RestaurantContext);
 
   return (
-    <nav className="w-screen bg-white h-32 grid grid-cols-5 xl:grid-cols-10 px-12 drop-shadow border-b border-slate-300">
-      <div className="h-32 col-span-4 hidden xl:flex justify-end items-center gap-8 mr-16 font-sans text-soi-green capitalize text-xl">
+    <nav className="w-screen bg-white h-36 grid grid-cols-5 xl:grid-cols-10 px-12 drop-shadow border-b border-slate-300">
+      <div className="h-36 col-span-4 hidden xl:flex justify-end items-center gap-8 mr-12 font-sans text-soi-green capitalize text-xl">
         <div className="hover:text-green-400">
           {restaurant === 2 ? (
             <Link to="/soi2/home">
@@ -35,22 +35,22 @@ const Navbar = () => {
           )}
         </div>
       </div>
-      <div className='h-32 col-span-3 xl:col-span-2 flex-center w-full sm:w-4/5 xl:w-full'>
+      <div className='h-36 col-span-3 xl:col-span-2 flex-center w-full sm:w-4/5 xl:w-full'>
         {restaurant === 2 ? (
           <Link to="/soi2/home">
-            <img className="max-h-32" 
-              src={images.soi} 
+            <img className="max-h-36 py-2" 
+              src={images.soi2} 
               alt="soi 2 logo"/>
           </Link>
         ) : (
           <Link to="/soi3/home">
-            <img className="max-h-32" 
-              src={images.soi} 
+            <img className="max-h-36 py-2" 
+              src={images.soi3} 
               alt="soi 2 logo" />
           </Link>
         )}
       </div>
-      <div className="h-32 col-span-3 hidden xl:flex justify-start items-center gap-8 ml-16 font-sans text-soi-green capitalize text-xl">
+      <div className="h-36 col-span-3 hidden xl:flex justify-start items-center gap-8 ml-12 font-sans text-soi-green capitalize text-xl">
         <div className="hover:text-green-400">
           <Link to="/aboutus">
             About Us
@@ -62,10 +62,10 @@ const Navbar = () => {
           </Link>
         </div>
       </div>
-      <div className="h-32 col-span-1 flex-center">
+      <div className="h-36 col-span-1 flex-center">
         
       </div>
-      <div className="h-32 col-span-1 flex-center xl:hidden">
+      <div className="h-36 col-span-1 flex-center xl:hidden">
         <GiHamburgerMenu className='text-soi-green text-3xl md:text-4xl' onClick={() => setToggleMenu(true)} />
 
         {toggleMenu && (
