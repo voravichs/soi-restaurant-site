@@ -10,7 +10,7 @@ const LeftPicHero  = (props) => (
         className='w-full max-w-lg lg:max-w-2xl'
       />
     </div>
-    <p className='pt-12 sm:px-12 lg:w-1/2 lg:pl-12 lg:pr-0 font-serif text-xl xl:text-2xl text-green-50'>
+    <p className='pt-12 sm:px-12 lg:w-1/2 lg:pl-12 lg:pr-0 font-serif text-xl xl:text-2xl text-black'>
       {props.text}
     </p>
   </div>
