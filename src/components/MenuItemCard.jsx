@@ -30,13 +30,13 @@ const MenuItemCard = ({ product, location }) => {
     for (let i = 0; i < spicy; i++) {
       spicyList.push({
         spicy: <HiFire className='text-3xl text-red-500' key={`${i}${id}`} />,
-        bigspicy: <HiFire className='text-5xl text-red-500' key={`${i}${id}`} />
+        bigspicy: <HiFire className='text-4xl text-red-500' key={`${i}${id}`} />
       })
     }
     for (let i = spicy; i < 5; i++) {
       spicyList.push({
         spicy: <HiOutlineFire className='text-3xl opacity-50' key={`${i}${id}`} />,
-        bigspicy: <HiOutlineFire className='text-5xl opacity-50' key={`${i}${id}`} />
+        bigspicy: <HiOutlineFire className='text-4xl opacity-50' key={`${i}${id}`} />
       })
     }
   }
@@ -86,10 +86,10 @@ const MenuItemCard = ({ product, location }) => {
                     item.bigspicy
                   ))}
                 </div>
-                <div className='text-4xl my-4'>
+                <div className='text-2xl md:text-4xl my-4 w-full'>
                   {description}  
                 </div>
-                <div className='mt-2 w-full flex-center gap-4'>
+                <div className='mt-2 w-full flex-center flex-col sm:flex-row gap-4'>
                   {choices.map((meat) => {
                     return (
                       <Meat meat={meat} size='xl' color='bg-gray-200' key={`${id}-${meat}`} />

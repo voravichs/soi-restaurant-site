@@ -6299,6 +6299,10 @@ video {
     width: 24rem;
   }
 
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
   .sm\:p-8 {
     padding: 2rem;
   }
