@@ -13,13 +13,10 @@ This is a website built for Soi 2 Thai Street Food and Soi 3 Thai Noodle Shop, m
 
  ## Credits
 
+Voravich Silapachairueng: https://github.com/voravichs
+
 Sung Je Moon: https://github.com/solar268
 
-Antina Yeh: https://github.com/antinayeh
-
-Peici Qiu: https://github.com/peiciqiu
-
-Voravich Silapachairueng: https://github.com/voravichs
  
 
 
