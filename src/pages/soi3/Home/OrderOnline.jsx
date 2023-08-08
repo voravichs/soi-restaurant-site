@@ -29,7 +29,7 @@ const OrderOnline = () => (
             <div>
                 <a
                     className='flex-center'
-                    href='https://www.grubhub.com/restaurant/soi-2-thai-1825-2nd-ave-rock-island/4378432'>
+                    href='https://www.grubhub.com/restaurant/soi-3-thai-noodle-shop-102-e-3rd-st-davenport/3188424'>
                     <img
                         src={images.grubhub}
                         alt='grubhub logo'
