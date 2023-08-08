@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import Modal from 'react-modal'
 
 // import icons
@@ -26,17 +26,17 @@ const MenuItemCard = ({ product, location }) => {
 
   // Spicy
   let spicyList = [];
-  if (category !== "Dessert" && category !== "Drink" ) {
+  if (category !== "Dessert" && category !== "Drink") {
     for (let i = 0; i < spicy; i++) {
       spicyList.push({
-        spicy: <HiFire className='text-3xl text-red-500' key={`${i}${id}`}/>,
-        bigspicy: <HiFire className='text-5xl text-red-500' key={`${i}${id}`}/>
+        spicy: <HiFire className='text-3xl text-red-500' key={`${i}${id}`} />,
+        bigspicy: <HiFire className='text-5xl text-red-500' key={`${i}${id}`} />
       })
     }
     for (let i = spicy; i < 5; i++) {
       spicyList.push({
-        spicy: <HiOutlineFire className='text-3xl opacity-50' key={`${i}${id}`}/>,
-        bigspicy: <HiOutlineFire className='text-5xl opacity-50' key={`${i}${id}`}/>
+        spicy: <HiOutlineFire className='text-3xl opacity-50' key={`${i}${id}`} />,
+        bigspicy: <HiOutlineFire className='text-5xl opacity-50' key={`${i}${id}`} />
       })
     }
   }
@@ -52,7 +52,7 @@ const MenuItemCard = ({ product, location }) => {
 
       {/* buttons */}
       <div className='absolute top-3 right-5 lg:right-3 lg:group-hover:right-5 p-2 flex flex-col items-center justify-center gap-y-2 opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition-all duration-300'>
-        <div 
+        <div
           onClick={handleOpenImage}
           className='w-12 h-12 bg-white flex justify-center items-center text-primary drop-shadow-xl cursor-pointer'>
           <BsEyeFill />
@@ -62,39 +62,42 @@ const MenuItemCard = ({ product, location }) => {
           isOpen={openImage}
           onRequestClose={handleCloseImage}
           ariaHideApp={false}
-          className='absolute inset-10 border-soi-green rounded-md bg-white overflow-auto outline-none p-6 z-50'>
+          className='absolute inset-10 rounded-xl bg-white border shadow-2xl overflow-auto outline-none p-6 z-50'>
           <div className='relative w-full h-full flex-center flex-col'>
             {/* Close */}
-            <button 
+            <button
               onClick={handleCloseImage}
               className='absolute top-5 right-5 flex-center rounded-lg bg-soi-green p-2 text-3xl'>
-              <MdClose/>
+              <MdClose />
             </button>
-            {/* Image */}
-            <div className='flex-center h-1/2 sm:h-3/4'>
-              <img
-                className='h-full object-contain'
-                src={image}
-                alt=''
-              />
-            </div>
-            {/* Spicy, Desc, and Choices */}
-            <div className='font-serif h-1/2 sm:h-1/4 flex-center flex-col text-3xl text-center p-8'>
-              <div className='flex'>
-                {spicyList.map(item => (
-                  item.bigspicy
-                ))}
+            <div className='h-full'>
+              {/* Image */}
+              <div className='flex-center h-1/2 sm:h-2/3'>
+                <img
+                  className='h-full object-contain'
+                  src={image}
+                  alt=''
+                />
               </div>
-              {description}
-              <div className='mt-2 w-full flex-center gap-4'>
-                {choices.map((meat)=> {
-                  return (
-                    <Meat meat={meat} size='xl' color='bg-gray-200' key={`${id}-${meat}`}/>
-                  )
-                })}
+              {/* Spicy, Desc, and Choices */}
+              <div className='font-serif h-1/2 sm:h-1/3 flex-center flex-col text-3xl text-center p-8'>
+                <div className='flex'>
+                  {spicyList.map(item => (
+                    item.bigspicy
+                  ))}
+                </div>
+                <div className='text-4xl my-4'>
+                  {description}  
+                </div>
+                <div className='mt-2 w-full flex-center gap-4'>
+                  {choices.map((meat) => {
+                    return (
+                      <Meat meat={meat} size='xl' color='bg-gray-200' key={`${id}-${meat}`} />
+                    )
+                  })}
+                </div>
               </div>
             </div>
-
           </div>
         </Modal>
       </div>
@@ -123,9 +126,9 @@ const MenuItemCard = ({ product, location }) => {
         </div>
         {choice && (
           <div className='mt-4 flex flex-col gap-1'>
-            {choices.map((meat)=> {
+            {choices.map((meat) => {
               return (
-                <Meat meat={meat} size='sm' color='bg-gray-200' key={`${id}-${meat}`}/>
+                <Meat meat={meat} size='sm' color='bg-gray-200' key={`${id}-${meat}`} />
               )
             })}
           </div>
