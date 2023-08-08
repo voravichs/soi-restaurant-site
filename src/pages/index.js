@@ -6,6 +6,7 @@ import Soi3Menu from './soi3/Menu/Menu';
 import AboutUs from './AboutUs/AboutUs';
 import Contact from './Contact/Contact';
 import Landing from './Landing';
+import NoPage from './NoPage';
 
 export {
   Layout,
@@ -15,5 +16,6 @@ export {
   Soi3Menu,
   AboutUs,
   Contact,
-  Landing
+  Landing,
+  NoPage
 };

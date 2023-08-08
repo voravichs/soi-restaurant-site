@@ -1,7 +1,6 @@
 import React from 'react';
 import { images } from '../../../constants';
 import { FaPhoneAlt } from 'react-icons/fa'
-import TestImg from '../../../assets/testhero.jpg';
 
 const OrderOnline = () => (
     <div className='mb-8 px-16 py-8 flex flex-col lg:flex-row gap-8 bg-white border-y-4'>
@@ -41,7 +40,7 @@ const OrderOnline = () => (
         </div>
         <div className='w-full lg:w-1/2 flex-center'>
             <img
-                src={TestImg}
+                src={images.soi3front}
                 alt="test"
                 className='w-full max-w-lg lg:max-w-2xl'
             />

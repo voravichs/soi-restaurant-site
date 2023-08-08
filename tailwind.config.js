@@ -22,6 +22,8 @@ module.exports = withMT({
       },
       backgroundImage: {
         jumbotron: "url('./assets/testhero.jpg')",
+        soi2front: "url('./assets/soi2front.jpg')",
+        soi3front: "url('./assets/soi3front.jpg')",
       },
     },
   },

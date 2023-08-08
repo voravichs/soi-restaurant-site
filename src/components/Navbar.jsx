@@ -3,8 +3,6 @@ import React, { useState, useContext } from 'react'; import { Link } from 'react
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdOutlineRestaurantMenu } from 'react-icons/md';
 
-
-
 // Images
 import { images } from '../constants'
 import { Tabs } from '../components'

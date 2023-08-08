@@ -2,7 +2,7 @@ import React from 'react';
 import { Routes, Route } from "react-router-dom";
 
 // Pages
-import { Layout, Soi2Home, Soi2Menu, Soi3Home, Soi3Menu, AboutUs, Contact, Landing } from './pages'
+import { Layout, Soi2Home, Soi2Menu, Soi3Home, Soi3Menu, AboutUs, Contact, Landing, NoPage } from './pages'
 
 // Context
 import RestaurantProvider from './contexts/RestaurantContext';
@@ -23,14 +23,17 @@ const App = () => {
           <Route path='/soi2' element={<Layout/>}>
             <Route path='home' element={<Soi2Home/>}/>
             <Route path='menu' element={<Soi2Menu/>}/>
+            <Route path='*' element={<NoPage/>}/>
           </Route>
           <Route path='/soi3' element={<Layout/>}>
             <Route path='home' element={<Soi3Home/>}/>
             <Route path='menu' element={<Soi3Menu/>}/>
+            <Route path='*' element={<NoPage/>}/>
           </Route>
           <Route path='/' element={<Layout/>}>
             <Route path='aboutus' element={<AboutUs/>}/>
             <Route path='contact' element={<Contact/>}/>
+            <Route path='*' element={<NoPage/>}/>
           </Route>
         </Routes>
       </RestaurantProvider>
