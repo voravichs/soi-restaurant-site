@@ -1,0 +1,87 @@
+id,title,price,altprice,category,spicy,choice,choices,description
+a1,Crab Rangoon (5 pcs.),7,7,Appetizers,0,False,[],Crabstick and cream cheese filling inside crispy wonton wrappers.
+a2,Egg Rolls (4 pcs.),7,7,Appetizers,0,False,[],Crispy vegetables rolls served with sweet & sour sauce.
+a3,Chicken Satay (4 pcs.),8,8,Appetizers,0,False,[],Grilled marinated chicken on skewers served with peanut sauce on the side.
+a4,Moo Ping (4 pcs.),8,8,Appetizers,0,False,[],"Marinated grilled pork on a stick, served with sweet chili sauce"
+a5,Pork Dumpling (5 pcs.),8,8,Appetizers,0,True,"['Steamed', 'Deep-Fried']",Choose either steamed or deep-fried served with ginger soy dip.
+a6,Wings (5 pcs.),12,12,Appetizers,2,True,"['Crispy', 'Spicy']",Choose crispy or spicy fish sauce.
+a7,Sweater Shrimp (4 pcs.),7,7,Appetizers,0,False,[],Marinated shrimp wrapped in spring roll skin served with sweet & sour sauce.
+a8,Crispy Pork Belly (5 pcs.),12,12,Appetizers,0,False,[],"Marinated prok belly sprinkled with sesame seed, crispy onion and garlic served with spicy sauce."
+a9,Street Ball (5 pcs.),10,10,Appetizers,1,False,[],"Chicken, roasted rice, onion, kaffir lime leaf served with spicy lime sauce."
+a10,Edamame,6,6,Appetizers,0,False,[],Steamed soybean seasoned with salt
+a11,Sauna Mussels,12,12,Appetizers,2,False,[],Steamed mussels with lemongrass and sweet basil leafs served with spicy Thai garlic sauce.
+a12,Fresh Rolls,7,7,Appetizers,0,True,"['Chicken', 'Vegetarian']","Steamed vermicelli, grilled chicken, lettuce, carrot, cucumber, basil leaf wrapped in rice paper served with homemade sweet sauce, ground peanuts. Can be made vegetarian."
+a13,Sampler,15,15,Appetizers,0,False,[],"Combination of (2) Egg Rolls, (2) Sweater Shrimp, (2) Crab Rangoon, and (3) Pork Dumplings served with ginger soy dip and sweet & sour sauce."
+so1,Tom Kha Soup,7 (Pot $18),7 (Pot $18),Soup,0,False,[],"Coconut milk soup with galangal root, mushroom, tomatoes, scallion, cilantro, choice of meat."
+so2,Tom Yum Soup,7 (Pot $18),7 (Pot $18),Soup,1,True,"['Chicken', 'Shrimp']","Spicy & sour soup, mushrooms, tomatoes, scallion, cilantro and choice of meat."
+so3,Miso Soup,7,7,Soup,0,False,[],"A healthy traditional Japanese soup with tofu, seaweed and scallion."
+sal1,Larb E-San,13,13,Salad,2,False,[],"Lettuce wraps, minced chicken mixed with red onion, lemongrass, cilantro, roasted rice in a spicy lime dressing."
+sal2,Papaya Salad,12,12,Salad,2,True,"['Thai Style', 'Laos Style']","Thai style, sweet & sour with peanut or Laos style, spicy & sour with salted crab."
+sal3,Neua Nam Tok,15,15,Salad,2,False,[],"Grilled sliced beef mixed with lime juice, chili powder, roasted rice, red onion, kaffir lime leaf. Very delicious!"
+sal4,Woon Sen Salad,15,15,Salad,2,False,[],"Clear noodles, ground chicken, shrimp, onion, scallion, cilantro with spicy house lime dressing."
+mom1,Larb Mae Janla,15,15,Mom,3,False,[],"This is my original home town food, mince chicken with a spicy herb paste, served with lettuce and cucumber."
+mom2,Gaeng Hang Lay,15,15,Mom,1,False,[],"Very delicious pork belly slow cook Northern style curry, ginger, garlic, tamarind. You must try!"
+v1,Eggplant,14,14,Veggie,1,False,[],"Stir fried eggplant, pepper, onion with homemade brown sauce and a taste of sweet basil leaf."
+v2,Vegetable Bouquet,13,13,Veggie,0,False,[],Golden fried tofu on a bed of steamed assorted vegetables and served with side of peanut sauce.
+v3,Crispy Mock Duck,15,15,Veggie,1,False,[],A good source of protein. Choose between red curry or Gra Pow sauce.
+des1,Mango & Sticky Rice,8,8,Dessert,0,False,[],Lorem Ipsum
+des2,Thai Custard & Sticky Rice,8,8,Dessert,0,False,[],Lorem Ipsum
+des3,Tapioca & Taro,8,8,Dessert,0,False,[],Lorem Ipsum
+ns1,Duck Noodles,18,18,Noodle Soup,0,True,"['Rice Noodle', 'Ramen Noodle']","Bean sprout, crispy garlic, scallion, cilantro in a slow cook duck broth."
+ns2,Lek Heng Tom Yum,14,14,Noodle Soup,1,True,"['Rice Noodle', 'Ramen Noodle']","Ground chicken, peanut, bean sprout, crispy garlic, fried wonton skin, scallion, cilantro."
+ns3,Khao Soi,16,16,Noodle Soup,1,True,"['Chicken', 'Beef']","Northern-style Ramen noodle soup prepared with beef or chicken, crunchy wontons, pickled cabbage, red onion, crispy onion, crispy garlic, cilantro and scallion in a curry stock."
+ns4,Thai Beef Soup,15,15,Noodle Soup,0,True,"['Rice Noodle', 'Ramen Noodle']","Tender beef, meat balls, bean sprouts, cilantro, scallion, crispy garlic."
+ns5,Tom Yum Talay Noodles,18,18,Noodle Soup,2,True,"['Rice Noodle', 'Ramen Noodle']","A spicy Tom Yum broth with minced chicken, seafood, bean sprouts, ground peanut, cilantro and scallion."
+c1,Red Curry,15,15,Curry,2,True,['Protein'],"Bell pepper, egg plant, basil."
+c2,Gaeng Sub Pa Rod,15,15,Curry,1,True,['Protein'],"Bell, pineapples, basil."
+c3,Massaman Curry,15,15,Curry,1,True,['Protein'],"Potato, onion, carrots, cinnamon, peanut."
+c4,Green Curry,15,15,Curry,1,True,['Protein'],"Bamboo shoots, egg plant, bell, basil."
+c5,Mango Curry,15,15,Curry,1,True,['Protein'],"Mango, onions, carrots, tomatoes."
+c6,Kha Ree Curry,15,15,Curry,1,True,['Protein'],"Potato, onion, carrots."
+c7,Panang Curry,15,15,Curry,1,True,['Protein'],"Bell pepper, basil & kaffir lime leaf."
+n1,Pad Thai,10,15,Noodle,0,True,['Protein'],"Choice of meat stir-fried with rice noodles, eggs, scallions, bean sprouts, peanuts."
+n2,Fiery Pad Thai,15,15,Noodle,1,False,[],"Spicy version of traditional Pad Thai, with chicken and shrimp, egg, onion, carrots, peppers, and basil."
+n3,Pad Kee Mao,10,15,Noodle,2,True,['Protein'],"Wide noodles with your choice of meat, egg, onion, carrots, bell, basil leaf with spicy basil sauce."
+n4,Pad Woon Sen,10,15,Noodle,0,True,['Protein'],"A healthy dish of glass noodles sauteed with a homemade sauce, egg and mix veggies."
+n5,Pad See U,10,15,Noodle,0,True,['Protein'],"Choice of meat stir-fried with wide noodles, eggs, broccoli, carrots in a sweet dark soy sauce."
+n6,Lion City Noodles,10,15,Noodle,2,True,['Protein'],"Vermicelli noodles stir fried with Tahi spicy sauce, egg, seasoned with curry powder, carrots, peas, sprouts, onion and scallions, with choice of meat."
+n7,Bangkok Lo Mein,10,15,Noodle,0,True,['Protein'],"Egg Noodle stir fried with mixed veggies in brown homemade sauce, with choice of meat."
+n8,Rad Nah,15,15,Noodle,0,True,['Protein'],"Wide rice noodles, your choice of meat, broccoli and carrots in a gravy sauce."
+w1,Gra Pow,15,15,Wok,2,False,[],"Minced chicken, basil, bell pepper, onion stir fried in a spicy Thai basil sauce. Served with fried egg on the top."
+w2,Ginger,10,15,Wok,0,True,['Protein'],"Stir fry with ginger sauce, onion, red bell peppers, shiitake mushroom and scallions."
+w3,Pad Pak,10,15,Wok,0,True,['Protein'],Choice of meat with mixed vegetable wok in a homemade gravy sauce.
+w4,Garlic Sauce,10,15,Wok,0,True,['Protein'],"Choice of meat, onion, black pepper and cilantro."
+w5,Cashew Nut,10,15,Wok,1,True,['Protein'],"Choice of meat, onion, peppers, carrot, cashew nut, scallion, sweet chili sauce."
+w6,Sweet & Sour,10,15,Wok,0,True,['Protein'],"Choice of meat, bell pepper, onion, cucumber, tomatoes, pineapples, and scallion."
+w7,Pad Ped,10,15,Wok,3,True,['Protein'],"Choice of meat wok with spicy chili sauce, bell pepper, bamboo shoot, onion, basil and kaffir lime leaf."
+f1,Thai Fried Rice,10,15,Fried Rice,0,True,['Protein'],"Egg, onion, scallions, choice of meat."
+f2,Green Fried Rice,10,15,Fried Rice,1,True,['Protein'],"Green curry, coconut milk, egg, eggplant, bell, basil leaf."
+f3,Pineapple Fried Rice,10,15,Fried Rice,0,True,['Protein'],"Curry fried rice, egg, pineapple, raisin, cashew, scallions, your choice of meat."
+f4,Spicy Basil Fried Rice,10,15,Fried Rice,2,True,['Protein'],"Egg, bell, onion and basil leaf in a spicy basil sauce, your choice of meat."
+f5,Combo Fried Rice,15,15,Fried Rice,0,False,[],"Combination fried rice with Chicken, Beef, and Shrimp, egg, tomatoes, onion, broccoli and scallions."
+f6,Mango Fried Rice,10,15,Fried Rice,1,True,['Protein'],"Choice of meat, egg, onion, mango, broccoli, scallion in a sweet & spicy sauce."
+f7,Crab Fried Rice,18,18,Fried Rice,0,False,[],"Crab meat, egg, pea, carrot, scallion."
+f8,Street Fried Rice,18,18,Fried Rice,2,False,[],"Spicy & sour fried rice, shrimps, egg, onion, lemongrass, kaffir lime leaf and cilantro."
+d1,Thai Iced Coffee,4,4,Drink,0,False,[],Lorem Ipsum
+d2,Thai Iced Tea,4,4,Drink,0,False,[],Lorem Ipsum
+d3,Fountain Drink,3,3,Drink,0,False,[],Lorem Ipsum
+d4,Hot Tea,3,3,Drink,0,False,[],Lorem Ipsum
+d5,Unsweetened Thai Iced Tea,3,3,Drink,0,False,[],Lorem Ipsum
+s1,White Rice,3,3,Side,0,False,[],Lorem Ipsum
+s2,Brown Rice,3,3,Side,0,False,[],Lorem Ipsum
+s3,Sticky Rice,3,3,Side,0,False,[],Lorem Ipsum
+s4,Fried Rice,5,5,Side,0,False,[],Lorem Ipsum
+s5,Peanut Sauce,0.5,0.5,Side,0,False,[],Lorem Ipsum
+s6,Sweet Chili Sauce,0.5,0.5,Side,1,False,[],Lorem Ipsum
+s7,Hot Sauce,0.5,0.5,Side,1,False,[],Lorem Ipsum
+s8,Thai Chili Fish Sauce,1,1,Side,1,False,[],Lorem Ipsum
+a13,Sampler,15,15,Appetizers,0,False,[],"Combination of (2) Egg Rolls, (2) Sweater Shrimp, (2) Crab Rangoon, and (3) Pork Dumplings served with ginger soy dip and sweet & sour sauce."
+so2,Tom Yum Soup,7 (Pot 18),7 (Pot 18),Soup,1,True,"['Chicken', 'Shrimp']","Spicy & sour soup, mushrooms, tomatoes, scallion, cilantro and choice of meat."
+sal2,Papaya Salad,12,12,Salad,2,True,"['Thai Style', 'Laos Style']","Thai style, sweet & sour with peanut or Laos style, spicy & sour with salted crab."
+u2,Mango Chicken,15,15,Unique,1,False,[],"Sliced chicken stir-fried in our chef""s special sweet and sour sauce with slieced mango, peppers, and onion."
+mom1,Larb Mae Janla,15,15,Mom,3,False,[],"This is my original home town food, mince chicken with a spicy herb paste, served with lettuce and cucumber."
+ns1,Duck Noodles,18,18,Noodle Soup,0,True,"['Rice Noodle', 'Ramen Noodle']","Bean sprout, crispy garlic, scallion, cilantro in a slow cook duck broth."
+c1,Red Curry,15,15,Curry,2,True,['Protein'],"Bell pepper, egg plant, basil."
+n2,Fiery Pad Thai,15,15,Noodle,1,False,[],"Spicy version of traditional Pad Thai, with chicken and shrimp, egg, onion, carrots, peppers, and basil."
+w1,Gra Pow,15,15,Wok,2,False,[],"Minced chicken, basil, bell pepper, onion stir fried in a spicy Thai basil sauce. Served with fried egg on the top."
+f5,Combo Fried Rice,15,15,Fried Rice,0,False,[],"Combination fried rice with Chicken, Beef, and Shrimp, egg, tomatoes, onion, broccoli and scallions."

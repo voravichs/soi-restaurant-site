@@ -1,0 +1,52 @@
+id,title,price,category,spicy,choice,choices,description
+a1,Crab Rangoon (5 pcs),7,Appetizers,0,False,[],Crabstick and cream cheese filling inside crispy wonton wrappers.
+a2,Egg Roll (4 pcs),6,Appetizers,0,False,[],Veggie Crispy Roll.
+a3,Edamame,6,Appetizers,0,False,[],Steamed soybean pods seasoned with salt.
+a4,Pork Dumplings (5 pcs),8,Appetizers,0,False,[],Steamed dumpling served with ginger soy dip.
+a5,Shrimp Dumpling (5 pcs.),10,Appetizers,1,False,[],Steamed shrimp dumpling served with spicy ginger soy dip.
+a6,Fresh Rolls,7,Appetizers,0,True,"['Chicken', 'Vegetarian']","Steamed vermicelli, chicken, lettuce, carrot, cucumber, basil leaf wrapped in rice paper served with sweet sauce, ground peanuts."
+a7,Mussels,10,Appetizers,2,False,[],Steamed mussels with lemongrass and sweet basil leaves served with spicy and sour Thai sauce.
+a8,Thai Sausage,8,Appetizers,0,False,[],"Sour pork sausage served with Thai chili, whole peanut, cucumber, and lettuce."
+a9,Crying Tiger,15,Appetizers,0,False,[],Grilled steak with spicy dipping sauce.
+a10,BBQ Pork Bun (2 pcs),7,Appetizers,0,False,[],Steamed buns stuffed with roast char siu pork.
+a11,Crispy Pork Belly,12,Appetizers,0,False,[],Marinated pork belly serve crispy with sweet ginger soy dip.
+rm1,Khao Nah Ped,18,RiceMeat,0,False,[],"Roast duck over rice, Bok Choy, pickled ginger on top with ginger gravy sauce."
+rm2,Khao Man Gai,14,RiceMeat,0,False,[],Rice and moist chicken served with tangy ginger sauce and a cup of clear soup.
+rm3,Khao Moo Krob,15,RiceMeat,0,False,[],"Rice and crispy pork belly, cucumber, boiled egg on top with gravy sweet and sour sauce."
+rm4,Shrimp and Chicken Pumpkin Curry,15,RiceMeat,1,False,[],"Rice and pumpkin, bell pepper, basil in red curry sauce."
+sal1,House Salad,7,Salad,0,False,[],Served with homemade ginger dressing.
+sal2,Nam Tok,15,Salad,2,False,[],"Grilled sliced beef mixed with spicy lime juice, chili powder, roasted rice, red onion, cilantro, and scallion. Spicy."
+sal3,Pla Goong,15,Salad,1,False,[],"Spicy shrimp salad with lemongrass, red onion, and kaffir lime leaf."
+sal4,Woonsen Salad,15,Salad,2,False,[],"Clear noodles, ground chicken, shrimp, onion, scallion, cilantro with spicy house lime dressing."
+sal5,Larb E-San,13,Salad,2,False,[],"Minced chicken mixed with spicy lime juice, chili powder, roasted rice, red onion, cilantro, and scallion."
+sal6,Papaya Salad,12,Salad,2,True,"['Thai Style', 'Laos Style']",[Thai]: Sweet and sour with peanut. [Laos]: Spicy and sour and pickled crab.
+sal7,Seaweed Salad,8,Salad,0,False,[],Japanese seaweed sprinkled with sesame seeds.
+s1,Ramen Chashu Pork,15,Special,0,False,[],"Ramen noodle with miso soup base, slow cook pork belly, boiled egg, sesame seed, and scallion."
+s2,Spicy Ramen,15,Special,1,False,[],"Chashu in a spicy version. Ramen noodle with miso soup base, slow cook pork belly, boiled egg, sesame seed, and scallion."
+s3,Tom Yum Goong,18,Special,2,True,['Noodle'],"Noodles in spicy and sour broth, jumbo shrimp, boiled egg, bean sprout, ground peanut, cilantro, and scallion."
+s4,Duck Noodle,18,Special,0,True,['Noodle'],"Noodles with marinated duck, bean sprout, crispy garlic, scallion, and cilantro."
+s5,Khao Soi,16,Special,1,False,[],"Ramen noodle, chicken, crunchy wonton in a curry stock, red onion, pickled cabbage, crispy garlic, scallion, and cilantro."
+s6,Kimchi Noodle,16,Special,2,False,[],"Spicy & sour ramen noodle, tofu, crispy pork belly, boiled egg, scallion, and sesame seeds."
+s7,Beef Boat Noodle,15,Special,1,True,['Noodle'],"Noodles with beef tender, meat balls, bean sprout, scallion, and cilantro."
+s8,Yen Ta Fo,15,Special,1,False,[],"Wide noodle in a traditional Thai seafood pink soup, fish ball, fried tofu, crispy wonton skin, crispy garlic, scallion, and cilantro."
+s9,Wonton Noodle Soup,15,Special,0,False,[],"Egg noodles, chicken, the dumpling, cabbage napa, crispy garlic, cilantro and scallion."
+s10,Spicy Nam Ngaew,15,Special,1,False,[],"Northern thai style rice noodle with pork rib, garlic, red onion, pickled cabbage, lime, cilantro, and scallion."
+n1,Aunty Noodle,12,Noodle,0,True,"['Noodle', 'Protein']","30 years Aunty recipe clear soup stock recommended with pork, bean sprout, crispy garlic, scallion, and cilantro."
+n2,Tom Yum Noodle,14,Noodle,2,True,"['Noodle', 'Protein']","Spicy and sour soup stock, bean sprout, ground peanut, crispy garlic, scallion and cilantro."
+n3,Lek Heng,12,Noodle,1,True,"['Noodle', 'Protein']","Another way to have noodles without soup stock, is a dry style noodle, bean sprout, peanut, ground garlic, crispy wonton skin, scallion, and cilantro. "
+des1,Mango & Sweet Sticky Rice,8,Dessert,0,False,[],Lorem Ipsum
+des2,Thai Custard & Sweet Sticky Rice,8,Dessert,0,False,[],Lorem Ipsum
+des3,Mango & Ice Cream,8,Dessert,0,False,[],Lorem Ipsum
+d1,Thai Iced Coffee,4,Drink,0,False,[],Lorem Ipsum
+d2,Thai Iced Tea,4,Drink,0,False,[],Lorem Ipsum
+d3,Fountain Drink/Pop,3,Drink,0,False,[],Lorem Ipsum
+d4,Hot Tea,3,Drink,0,False,[],Lorem Ipsum
+d5,Unsweetened Thai Iced Tea,3,Drink,0,False,[],Lorem Ipsum
+s1,White Rice,3,Side,0,False,[],Lorem Ipsum
+s2,Sticky Rice,3,Side,0,False,[],Lorem Ipsum
+rm1,Khao Nah Ped,18,RiceMeat,0,False,[],"Roast duck over rice, Bok Choy, pickled ginger on top with ginger gravy sauce."
+rm3,Khao Moo Krob,15,RiceMeat,0,False,[],"Rice and crispy pork belly, cucumber, boiled egg on top with gravy sweet and sour sauce."
+s2,Spicy Ramen,15,Special,1,False,[],"Chashu in a spicy version. Ramen noodle with miso soup base, slow cook pork belly, boiled egg, sesame seed, and scallion."
+s5,Khao Soi,16,Special,1,False,[],"Ramen noodle, chicken, crunchy wonton in a curry stock, red onion, pickled cabbage, crispy garlic, scallion, and cilantro."
+n1,Aunty Noodle,12,Noodle,0,True,"['Noodle', 'Protein']","30 years Aunty recipe clear soup stock recommended with pork, bean sprout, crispy garlic, scallion, and cilantro."
+n2,Tom Yum Noodle,14,Noodle,2,True,"['Noodle', 'Protein']","Spicy and sour soup stock, bean sprout, ground peanut, crispy garlic, scallion and cilantro."
